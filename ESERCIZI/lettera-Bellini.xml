@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettera di Vincenzo Bellini a Pasquier</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Progetto Codifica Lettere</publisher>
+      </publicationStmt>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>Trascrizione e annotazione TEI P5 per scopi di ricerca e studio</projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface xml:id="surf-lettera-bellini" ulx="0" uly="0" lrx="748" lry="506">
+    <graphic url="letterabellini.png" width="748.4px" height="506.4px" />
+    <zone xml:id="zone-datario" points="18,21 19,82 364,84 364,21" />
+    <zone xml:id="zone-mittente" points="19,89 19,286 364,289 363,90" />
+    <zone xml:id="zone-sigillo" points="18,293 18,489 362,488 363,297" />
+    <zone xml:id="zone-intestazione" points="371,16 371,69 727,69 727,17" />
+    <zone xml:id="zone-testo" points="399,75 399,475 720,476 719,74" />
+    <zone xml:id="zone-firma" points="557,445 559,489 718,485 718,446" />
+    </surface>
+  </facsimile>
+
+  <text xml:lang="it">
+    <body>
+      <div type="datario" facs="#zone-datario">
+        <p></p>
+      </div>
+      <div type="mittente" facs="#zone-mittente">
+        <p></p>
+      </div>
+      <div type="sigillo" facs="#zone-sigillo">
+        <p></p>
+      </div>
+      <div type="intestazione" facs="#zone-intestazione">
+        <p></p>
+      </div>
+      <div type="testo" facs="#zone-testo">
+        <p></p>
+      </div>
+      <div type="firma" facs="#zone-firma">
+        <p></p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

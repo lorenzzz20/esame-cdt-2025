@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Il Signore degli Anelli - Trama</title></titleStmt>
+      <publicationStmt><p>Edizione digitale a scopo didattico</p></publicationStmt>
+      <sourceDesc><p>Tratto dal riassunto de Il Signore degli Anelli</p></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="prologo">
+        <head>Prologo</head>
+        <p>Il prologo serve a fornire al lettore le principali informazioni sugli 
+           <name ref="#hobbit">hobbit</name> e sulla loro 
+           <term ref="#migrazione">migrazione</term> dall'est della 
+           <placeName ref="#terra-di-mezzo">Terra di Mezzo</placeName>.<ptr target="#hobbit"/> 
+           Inoltre viene descritto l'ordinamento della 
+           <placeName ref="#contea">Contea</placeName>.<ptr target="#contea"/> 
+           È presente inoltre un breve riassunto delle vicende narrate ne 
+           <title ref="#lohobbit">Lo Hobbit</title>.<ptr target="#lohobbit"/></p>
+      </div>
+      <div xml:id="la-compagnia-dellanello">
+        <head>La Compagnia dell'Anello - Libro I</head>
+        <p>Il romanzo ha inizio con la festa del 111º compleanno di 
+           <name ref="#bilbo">Bilbo</name> e del 33° di suo nipote 
+           <name ref="#frodo">Frodo</name>.<ptr target="#frodo"/> 
+           Alla fine della festa, <name ref="#bilbo">Bilbo</name> comunica a tutti i presenti che intende lasciare la 
+           <placeName ref="#contea">Contea</placeName> per sempre e, dopo essersi infilato 
+           l'<term ref="#unico-anello">anello</term>, sparisce.<ptr target="#unico-anello"/> 
+           Viene poi raggiunto a <placeName ref="#casa-baggins">Casa Baggins</placeName> da 
+           <name ref="#gandalf">Gandalf</name>, che riesce a convincerlo a lasciare l'anello a 
+           <name ref="#frodo">Frodo</name>.<note>Gandalf è uno dei principali personaggi e maghi dell’opera</note> 
+           Lo stregone comincia a sospettare della natura dell'anello e consiglia a 
+           <name ref="#frodo">Frodo</name> di non adoperarlo mai e si allontana da <placeName ref="#casa-baggins">Casa Baggins</placeName> alla ricerca della verità.
+        </p>
+        <p>Diciassette anni dopo, <name ref="#gandalf">Gandalf</name> scopre che l'anello in possesso di 
+           <name ref="#frodo">Frodo</name> è l'<term ref="#unico-anello">Unico Anello</term>, forgiato molti anni prima dall'Oscuro Signore <name ref="#sauron">Sauron</name> dopo che questi ebbe indotto con l'inganno i fabbri elfici dell'<placeName ref="#eregion">Eregion</placeName> a creare gli Anelli del Potere.<ptr target="#unico-anello"/> 
+           Di questi, 9 furono donati agli uomini, che ne furono corrotti e si trasformarono in 
+           <name ref="#nazgul">Nazgûl</name>.<ptr target="#nazgul"/> 
+           7 furono dati ai nani, che si rivelarono molto più resistenti al loro influsso maligno.<note>I nani sono meno sensibili alla magia di Sauron</note> 
+           3 agli elfi, che furono forgiati senza l'aiuto di Sauron e rimasero a lui celati.<note>Gli anelli elfici sono legati al destino dell'Unico Anello</note> 
+           Sauron lo perse dopo essere stato sconfitto dal re elfico <name ref="#gilgalad">Gil-galad</name> e dal re dei Dúnedain <name ref="#elendil">Elendil</name>.<ptr target="#elendil"/> 
+           Isildur, figlio di Elendil, si impadronì dell'Anello tagliando il dito di Sauron con il moncone di <name ref="#narsil">Narsil</name>, la spada di suo padre, ma non lo distrusse.<note>Isildur verrà ucciso poco dopo e l'anello andrà perduto nel fiume Anduin</note> 
+           L'Anello si smarrì nel fiume <placeName ref="#anduin">Anduin</placeName> e, dopo più di 2000 anni, fu trovato da 
+           <name ref="#gollum">Gollum</name>.<ptr target="#gollum"/> 
+           Esso lo custodì per centinaia di anni finché decise di abbandonarlo e fu inaspettatamente raccolto da 
+           <name ref="#bilbo">Bilbo</name>.<ptr target="#bilbo"/> 
+           Alla luce di queste informazioni, <name ref="#gandalf">Gandalf</name> esorta <name ref="#frodo">Frodo</name> ad allontanarsi al più presto dalla <placeName ref="#contea">Contea</placeName>.<ptr target="#contea"/>
+        </p>
+        <p>Dopo aver festeggiato il cinquantesimo compleanno e aver atteso invano il ritorno di <name ref="#gandalf">Gandalf</name>, partito frettolosamente tre mesi prima, <name ref="#frodo">Frodo</name> si mette in cammino insieme a <name ref="#sam">Sam</name> e al cugino <name ref="#pipino">Pipino</name>.<ptr target="#sam"/> Durante il viaggio, i tre hobbit si imbattono in alcuni <name ref="#nazgul">Nazgûl</name>, che hanno preso le sembianze di Cavalieri Neri e sono a caccia dell'Anello.<ptr target="#nazgul"/> Essi vengono scacciati da un gruppo di elfi guidato da <name ref="#gildor">Gildor</name>.<note>Gildor è un elfo di alto lignaggio che aiuta i tre hobbit nel loro viaggio</note> 
+           Gli hobbit passano la notte in compagnia degli elfi e, il giorno successivo, arrivano alla fattoria del signor Maggot, che li conduce al traghetto di Buckburgo, dove li raggiunge l'amico <name ref="#merry">Merry</name>.<ptr target="#merry"/> Una volta arrivato a Crifosso, <name ref="#frodo">Frodo</name> scopre che <name ref="#merry">Merry</name> e <name ref="#pipino">Pipino</name> sono al corrente della sua missione e che <name ref="#sam">Sam</name> è il loro informatore.<note>La compagnia dei quattro hobbit è formata</note> 
+           L'indomani, per sfuggire ai Cavalieri Neri, i quattro hobbit si inoltrano nella Vecchia Foresta, dove vengono attaccati dal Vecchio Uomo Salice.<note>Essere maligno della Vecchia Foresta</note> 
+           Sono però salvati da <name ref="#tom-bombadil">Tom Bombadil</name>, che li ospita per due notti.<ptr target="#tom-bombadil"/> 
+           In seguito, Tom Bombadil li aiuta a superare i <placeName ref="#tumulilande">Tumulilande</placeName>, infestati dagli Spettri dei Tumuli, e a raggiungere il villaggio di <placeName ref="#brea">Brea</placeName>.<ptr target="#brea"/>
+        </p>
+        <p>A <placeName ref="#brea">Brea</placeName>, gli hobbit incontrano un ramingo di nome <name ref="#grampasso">Grampasso</name>, che non incute molta fiducia.<note>Si rivelerà essere Aragorn</note> 
+           L'oste <name ref="#omorzo">Omorzo Cactaceo</name> fa recapitare a <name ref="#frodo">Frodo</name> una lettera scrittagli da <name ref="#gandalf">Gandalf</name> tre mesi prima, in cui gli viene consigliato di affidarsi a <name ref="#grampasso">Grampasso</name>.<ptr target="#grampasso"/> 
+           Per sfuggire all'inseguimento dei Cavalieri Neri, che nel frattempo hanno raggiunto <placeName ref="#brea">Brea</placeName>, <name ref="#grampasso">Grampasso</name> conduce gli hobbit a <placeName ref="#gran-burrone">Gran Burrone</placeName>.<ptr target="#gran-burrone"/> 
+           Una notte, mentre gli hobbit e <name ref="#grampasso">Grampasso</name> si trovano a <placeName ref="#colle-vento">Colle Vento</placeName>, i Cavalieri Neri tendono loro un agguato e <name ref="#frodo">Frodo</name> viene ferito con un pugnale.<note>Ferita inflitta dal pugnale Morgul</note> 
+           Grazie all'aiuto dell'elfo <name ref="#glorfindel">Glorfindel</name>, giunto in soccorso dei viandanti, <name ref="#frodo">Frodo</name> viene portato in tempo a <placeName ref="#gran-burrone">Gran Burrone</placeName>, mentre i Cavalieri Neri vengono travolti dall'inondazione del fiume <placeName ref="#bruinen">Bruinen</placeName> e risultano temporaneamente sconfitti.<ptr target="#bruinen"/>
+        </p>
+      </div>
+    </body>
+    <back>
+      <listPerson>
+        <person xml:id="bilbo"><persName>Bilbo Baggins</persName></person>
+        <person xml:id="frodo"><persName>Frodo Baggins</persName></person>
+        <person xml:id="gandalf"><persName>Gandalf</persName></person>
+        <person xml:id="sam"><persName>Samwise Gamgee</persName></person>
+        <person xml:id="pipino"><persName>Pipino Took</persName></person>
+        <person xml:id="merry"><persName>Meriadoc Brandybuck</persName></person>
+        <person xml:id="gollum"><persName>Gollum</persName></person>
+        <person xml:id="gilgalad"><persName>Gil-galad</persName></person>
+        <person xml:id="elendil"><persName>Elendil</persName></person>
+        <person xml:id="isildur"><persName>Isildur</persName></person>
+        <person xml:id="grampasso"><persName>Grampasso (Aragorn)</persName></person>
+        <person xml:id="tom-bombadil"><persName>Tom Bombadil</persName></person>
+        <person xml:id="glorfindel"><persName>Glorfindel</persName></person>
+        <person xml:id="omorzo"><persName>Omorzo Cactaceo</persName></person>
+        <person xml:id="narsil"><persName>Narsil (spada)</persName></person>
+      </listPerson>
+      <listPlace>
+        <place xml:id="contea"><placeName>Contea</placeName></place>
+        <place xml:id="terra-di-mezzo"><placeName>Terra di Mezzo</placeName></place>
+        <place xml:id="casa-baggins"><placeName>Casa Baggins</placeName></place>
+        <place xml:id="eregion"><placeName>Eregion</placeName></place>
+        <place xml:id="anduin"><placeName>Fiume Anduin</placeName></place>
+        <place xml:id="brea"><placeName>Villaggio di Brea</placeName></place>
+        <place xml:id="gran-burrone"><placeName>Gran Burrone</placeName></place>
+        <place xml:id="colle-vento"><placeName>Colle Vento</placeName></place>
+        <place xml:id="tumulilande"><placeName>Tumulilande</placeName></place>
+        <place xml:id="bruinen"><placeName>Fiume Bruinen</placeName></place>
+      </listPlace>
+      <list>
+        <item xml:id="hobbit"><term>hobbit</term> — Creatura immaginaria di piccola statura che abita la Contea</item>
+        <item xml:id="migrazione"><term>migrazione</term> — Spostamento dei popoli hobbit dall'Est della Terra di Mezzo</item>
+        <item xml:id="unico-anello"><term>Unico Anello</term> — Anello del Potere forgiato da Sauron</item>
+        <item xml:id="nazgul"><term>Nazgûl</term> — Spettri dei Nove Anelli, servitori di Sauron</item>
+      </list>
+    </back>
+  </text>
+</TEI>

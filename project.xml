@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articoli della Rassegna Settimanale</title>
+        <author>Autori Vari</author>
+        <respStmt>
+          <resp>Codifica TEI a cura di</resp>
+          <name xml:id="autori">Lorenzo Fazio e Jacopo Castellucci</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edizione digitale TEI P5 a cura di Lorenzo Fazio e Jacopo Castellucci</edition>
+        <respStmt>
+          <resp>Codifica, trascrizione, annotazione</resp>
+          <name>Lorenzo Fazio</name>
+          <name>Jacopo Castellucci</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>La Rassegna Settimanale</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date from="1879-03-02" to="1880-04-04">1879-1880</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="course">Progetto sviluppato per il corso "Codifica di Testi", a.a. 2024–2025</title>
+        <respStmt>
+          <resp>Docente</resp>
+          <persName>Angelo Mario Del Grosso</persName>
+        </respStmt>
+      </seriesStmt>
+      <notesStmt>
+        <note type="editorial">Edizione basata su immagini dei fascicoli originali. Sono state normalizzate forme grafiche arcaiche e segnalate correzioni tramite l’elemento &lt;choice&gt;.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl>
+            <title>La legislazione sociale sull’ubriachezza</title>
+            <author>Anonimo</author>
+            <date when="1879-03-02">2 Marzo 1879</date>
+            <biblScope unit="volume">3</biblScope>
+            <biblScope unit="issue">61</biblScope>
+            <biblScope unit="page" from="161" to="162">161-162</biblScope>
+          </bibl>
+          <bibl>
+            <title>La legislazione e le questioni sociali</title>
+            <author>Anonimo</author>
+            <date when="1879-07-20">20 Luglio 1879</date>
+            <biblScope unit="volume">4</biblScope>
+            <biblScope unit="issue">81</biblScope>
+            <biblScope unit="page" from="42" to="43">42-43</biblScope>
+          </bibl>
+          <bibl>
+            <title>Recensione a Luigi Capuana, <hi>Giacinta</hi></title>
+            <author>Anonimo</author>
+            <pubPlace>Milano</pubPlace>
+            <publisher>Brigola</publisher>
+            <date when="1879-08-03">3 Agosto 1879</date>
+            <biblScope unit="volume">4</biblScope>
+            <biblScope unit="issue">83</biblScope>
+            <biblScope unit="page" from="92" to="93">92-93</biblScope>
+          </bibl>
+          <bibl>
+            <title>Documenti intorno a Giordano Bruno da Nola</title>
+            <author>Domenico Berti</author>
+            <pubPlace>Roma</pubPlace>
+            <publisher>Salviucci</publisher>
+            <date when="1880">1880</date>
+            <biblScope unit="volume">5</biblScope>
+            <biblScope unit="issue">118</biblScope>
+            <biblScope unit="page">250</biblScope>
+          </bibl>
+          <bibl>
+            <title>Questione operaia e questione sociale</title>
+            <author>Alessandro Rossi</author>
+            <pubPlace>Torino</pubPlace>
+            <publisher>Roux e Favale</publisher>
+            <date when="1879">1879</date>
+            <biblScope unit="volume">5</biblScope>
+            <biblScope unit="issue">118</biblScope>
+            <biblScope unit="page">252</biblScope>
+          </bibl>
+          <bibl>
+            <title>Segnalazione di <hi>Transactions of the Royal Historical Society</hi>, vol. VIII</title>
+            <author>Anonimo</author>
+            <note>Seconda notizia: recensione del volume a cura di Charles Rogers, con particolare menzione di studi su poeti laureati e del saggio di G. G. Zerffi sul realismo nell’epoca moderna (Descartes, Spinoza, Locke)</note>
+            <date when="1880-04-04">4 aprile 1880</date>
+            <biblScope unit="volume">5</biblScope>
+            <biblScope unit="issue">118</biblScope>
+            <biblScope unit="page">252</biblScope>
+          </bibl>
+          <bibl>
+            <title>Segnalazione sull'articolo del prof. Waldhauer su <hi>Nature</hi> riguardo i "randalist" della Curlandia</title>
+            <author>Anonimo</author>
+            <note>Settima notizia: resoconto etnografico di Waldhauer su un gruppo costiero della Curlandia, distinto dagli Estoni, pubblicato in "Nature"</note>
+            <date when="1880-04-04">4 aprile 1880</date>
+            <biblScope unit="volume">5</biblScope>
+            <biblScope unit="issue">118</biblScope>
+            <biblScope unit="page">252</biblScope>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Il progetto costituisce una edizione digitale TEI P5 di articoli e notizie tratte dalla rivista "La Rassegna Settimanale" (1879-1880), realizzata per l’esame di Codifica di Testi (Università di Pisa, A.A. 2024-2025). L’edizione è image-based, con collegamento alle immagini dei fascicoli originali, e comprende la codifica di fenomeni testuali rilevanti (persone, luoghi, opere, organizzazioni, temi, citazioni, date, lingue straniere, epiteti) secondo le indicazioni del progetto didattico IL REALISMO IN ARTE.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>La trascrizione segue i criteri di diplomatica normalizzata: sono state regolarizzate grafie non standard, segnalate tramite gli elementi &lt;choice&gt;, &lt;orig&gt;/&lt;reg&gt;, &lt;sic&gt;/&lt;corr&gt;. Sono state codificate le principali entità nominali (persone, luoghi, istituzioni), temi e motivi ricorrenti, termini tecnici e sociali, nonché eventuali citazioni e parole in lingua straniera. Non sono state modernizzate le forme sintattiche e lessicali, salvo indicazione tra le varianti registrate.</p>
+      </editorialDecl>
+      <samplingDecl>
+        <p>Il campione di testi selezionato comprende tre articoli, due bibliografie e due notizie dalla "Rassegna Settimanale" tra 1879 e 1880, secondo i criteri indicati dal corso.</p>
+      </samplingDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">italiano</language>
+        <language ident="fr">francese</language>
+        <language ident="en">inglese</language>
+        <language ident="lv">lettone</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface xml:id="surface1">
+      <graphic url="IMG/Fascicolo_n.61-pag.161.jpg" width="1163.4px" height="1661.4px"/>
+      <zone xml:id="zone1" points="572,1045 579,1590 1095,1589 1126,1033"/>
+    </surface>
+
+    <surface xml:id="surface2">
+      <graphic url="IMG/Fascicolo_n.61-pag.162.jpg" width="1133.4px" height="1684.4px"/>
+      <zone xml:id="zone2" points="52,143 43,1309 584,1309 582,153"/>
+    </surface>
+
+    <surface xml:id="surface3">
+      <graphic url="IMG/Fascicolo_n.81-pag.42.jpg" width="1104.4px" height="1600.4px"/>
+      <zone xml:id="zone3" points="584,577 586,841 1095,843 1091,581"/>
+      <zone xml:id="zone4" points="581,842 581,1065 1059,1062 1066,845"/>
+      <zone xml:id="zone5" points="581,1063 580,1182 1057,1176 1060,1059"/>
+      <zone xml:id="zone6" points="579,1183 579,1468 1073,1480 1064,1174"/>
+    </surface>
+
+    <surface xml:id="surface4">
+      <graphic url="IMG/Fascicolo_n.81-pag.43.jpg" width="1098.4px" height="1600.4px"/>
+      <zone xml:id="zone7" points="57,128 64,232 551,229 551,125"/>
+      <zone xml:id="zone8" points="62,235 59,517 549,510 553,232"/>
+      <zone xml:id="zone9" points="67,513 74,813 550,810 550,513"/>
+      <zone xml:id="zone10" points="70,814 72,1444 551,1433 550,816"/>
+      <zone xml:id="zone11" points="62,1428 55,1483 562,1486 551,1423"/>
+      <zone xml:id="zone12" points="562,127 565,637 1053,637 1049,125"/>
+      <zone xml:id="zone13" points="559,635 561,877 1036,881 1035,629"/>
+      <zone xml:id="zone14" points="562,878 563,1159 1046,1145 1039,877"/>
+    </surface>
+
+    <surface xml:id="surface5">
+      <graphic url="IMG/Fascicolo_n.83-pag.92.jpg" width="1123.4px" height="1649.4px"/>
+      <zone xml:id="zone15" points="33,1325 23,1421 539,1425 535,1319"/>
+      <zone xml:id="zone16" points="553,116 557,473 1069,459 1090,122"/>
+      <zone xml:id="zone17" points="557,465 551,529 1060,526 1066,461"/>
+      <zone xml:id="zone18" points="552,528 552,720 1077,711 1065,520"/>
+      <zone xml:id="zone19" points="552,719 550,832 1069,828 1070,715"/>
+      <zone xml:id="zone20" points="552,831 553,1366 1073,1365 1068,828"/>
+      <zone xml:id="zone21" points="555,1365 557,1569 1065,1577 1071,1363"/>
+    </surface>
+
+    <surface xml:id="surface6">
+      <graphic url="IMG/Fascicolo_n.83-pag.93.jpg" width="1116.4px" height="1646.4px"/>
+      <zone xml:id="zone22" points="31,72 29,782 534,781 535,72"/>
+    </surface>
+
+    <surface xml:id="surface7">
+      <graphic url="IMG/Fascicolo_n.118-pag.250.jpg" width="1093.4px" height="1600.4px"/>
+      <zone xml:id="zone23" points="74,821 46,1466 568,1461 570,807"/>
+      <zone xml:id="zone24" points="591,85 585,500 1059,498 1060,92"/>
+      <zone xml:id="zone25" points="589,500 588,575 1066,565 1064,490"/>
+    </surface>
+    
+    <surface xml:id="surface8">
+      <graphic url='IMG/Fascicolo_n.118-pag.252.jpg' width='1140.4px' height='1692.4px'/>
+      <zone xml:id="zone26" points  = ' 55,489 53,1479 570,1484 572,481 '/>
+      <zone xml:id="zone27" points = ' 58,1477 50,1544 559,1550 568,1473 '/>
+      <zone xml:id="zone28" points = ' 583,93 581,223 1091,229 1094,97 '/>
+      <zone xml:id="zone29" points = ' 575,343 587,613 1104,609 1083,335 '/>
+      <zone xml:id="zone30" points = ' 594,1024 588,1255 1102,1265 1110,1018 '/>
+    </surface>
+  </facsimile>
+
+  <text xml:lang="it">
+    <body>
+      <div xml:id="articolo-ubbriachezza">
+        
+        <head>LA LEGISLAZIONE SOCIALE SULL’<choice><sic>UBBRIACHEZZA</sic><corr>UBRIACHEZZA</corr></choice></head>
+
+        <list type="keywords">
+          <item><term>ubriachezza</term></item>
+          <item><term>legislazione sociale</term></item>
+          <item><term>legge speciale</term></item>
+          <item><term>bettole</term></item>
+          <item><term>spaccio di vino</term></item>
+          <item><term>libertà dei commerci</term></item>
+          <item><term>Commissione d’inchiesta sugli scioperi</term></item>
+          <item><term>Governo</term></item>
+          <item><term>Depretis</term></item>
+          <item><term>Nicotera</term></item>
+          <item><term>Prefetti</term></item>
+          <item><term>Questori</term></item>
+          <item><term>Biella</term></item>
+          <item><term>Torino</term></item>
+          <item><term>Francia</term></item>
+          <item><term>Inghilterra</term></item>
+          <item><term>Casse di Risparmio</term></item>
+          <item><term>risparmio</term></item>
+          <item><term>previdenza</term></item>
+          <item><term>economia</term></item>
+          <item><term>commercio</term></item>
+          <item><term>legge sull'emigrazione</term></item>
+          <item><term>legge sul lavoro dei fanciulli</term></item>
+          <item><term>grandi riforme</term></item>
+          <item><term>sfaccendati</term></item>
+        </list>
+
+        <p facs="#zone1">
+          Parecchi <name type="social">cittadini</name> di <placeName ref="#Torino">Torino</placeName> di ogni ceto sociale hanno tenuto alcune adunanze, nelle quali esaminarono i guai della 
+          <term type="theme"><choice><sic>ubbriachezza</sic><corr>ubriachezza</corr></choice></term>, che si va esacerbando fra le classi lavoratrici a 
+          <placeName ref="#Torino">Torino</placeName>, e chiedono al <orgName type="institution" ref="#Governo">Governo</orgName> una 
+          <term type="legal">legge severa</term> a similitudine di quella 
+          <placeName ref="#Francia">francese</placeName>, la quale castiga i recidivi e commina altre pene. Il 
+          <persName ref="#Depretis">Agostino Depretis</persName> ha risposto con cortese brevità, riferendosi alle conclusioni della 
+          <orgName type="institution" ref="#CommissioneScioperi">Commissione d’inchiesta sugli scioperi</orgName>, la quale ha 
+          <choice><sic>preparate</sic><corr>preparato</corr></choice> alcune proposte su questa 
+          <term type="theme">grave questione</term>. Infatti, la 
+          <orgName type="institution" ref="#CommissioneScioperi">Commissione</orgName> nelle sue escursioni e nei suoi studi è stata afflitta dallo spettacolo della 
+          <term type="theme"><choice><sic>ubbriachezza</sic><corr>ubriachezza</corr></choice></term> crescente nei centri operai. Nel circondario di 
+          <placeName ref="#Biella">Biella</placeName> le 
+          <placeName type="economic">bettole</placeName> e gli <placeName type="economic">spacci del vino</placeName> sono raddoppiati in pochi anni. A ciò segnatamente contribuirono le idee del 
+          <foreign xml:lang="fr">laissez faire</foreign> e del <foreign xml:lang="fr">laissez passer</foreign>. In passato si lasciavano ai 
+          <orgName type="authority" ref="#Prefetti">Prefetti</orgName> e ai <orgName type="authority" ref="#Questori">Questori</orgName> alcune facoltà discrezionali; si dava loro una certa 
+          <choice><sic>balia</sic><corr>balìa</corr></choice> d’impedire che le 
+          <placeName type="economic">bettole</placeName> sorgessero una di fianco all’altra; si stabilivano certe distanze e altre restrizioni somiglianti. Ma dopo una circolare del ministro 
+          <persName ref="#Nicotera">Giovanni Nicotera</persName> si ruppero le dighe. Si proclamò la 
+          <term type="legal">libertà dei commerci</term> anche nelle 
+          <placeName type="economic">bettole</placeName>. Ognuno abbia la facoltà d’impiegare 
+          <choice><sic>impiegar</sic><corr>impiegare</corr></choice> i suoi denari e la sua opera nello 
+          <placeName type="economic">spaccio di bevande spiritose</placeName>. La
+        </p>
+
+        <p facs="#zone2">
+          sola sanzione spetti ai 
+          <roleName type="social">consumatori</roleName>, ai <roleName type="social">clienti</roleName> di 
+          <choice><orig>cotali</orig><reg>tali</reg></choice> <placeName type="economic">bettole</placeName>. Queste sono le 
+          <roleName type="social">nonne</roleName> che prevalsero; e non vi fu più freno. 
+          La <orgName type="institution" ref="#CommissioneScioperi">Commissione</orgName> ha raccolto dati dai quali si trae che 
+          la moltitudine delle <placeName type="economic">bettole</placeName>, 
+          <choice><orig>colle</orig><reg>con le</reg></choice> occasioni più frequenti, accresce effettivamente la propensione all’ 
+          <choice><orig>ubbriachezza</orig><reg>ubriachezza</reg></choice>. Avviene nel male come nel bene. 
+          Le <orgName type="institution" ref="#CasseRisparmio">Casse di Risparmio</orgName> fitte, che allacciano 
+          <choice><orig>l’artiere</orig><reg>il lavoratore</reg></choice> in una 
+          <choice><orig>provvida</orig><reg>previdente</reg></choice> rete, lo forzano alla <term type="theme">previdenza</term>. 
+          Quando <choice><orig>balena nell’anima sua</orig><reg>sorge nella mente</reg></choice> il pensiero del <term type="theme">risparmio</term>, 
+          la <orgName type="institution" ref="#CasseRisparmio">Cassa di Risparmio</orgName> vicina glielo imprigiona, 
+          <choice><orig>glielo concreta</orig><reg>lo concretizza per lui</reg></choice>, senza lasciargli il tempo ai pentimenti. 
+          Per certo, quando <choice><orig>l’artiere</orig><reg>il lavoratore</reg></choice> per recarsi dalla fabbrica alla sua casa, 
+          che non sempre è un <choice><orig>soggiorno dei più piacevoli</orig><reg>tra i più piacevoli</reg></choice>, 
+          trova per via molte <placeName type="economic">bettole</placeName>, l’allettamento e la seduzione superano la sua virtù di resistenza e finisce per cedere. 
+          A tale <choice><orig>uopo</orig><reg>scopo</reg></choice> occorre l’ingerenza dello 
+          <orgName type="institution" ref="#Governo">Stato</orgName>, che regoli a fondo tutta questa materia delicata. 
+          Ma si farà ciò per atto prudente e arbitrario del <orgName type="institution" ref="#Governo">Governo</orgName> o per 
+          <term type="theme">legge speciale</term>? Questo è il problema.
+
+          Gli <name type="national">Italiani</name>, e segnatamente gli 
+          <roleName type="role">avvocati deputati</roleName> hanno un sacro orrore delle <term type="theme">leggi speciali</term>. 
+          Non capiscono che i grandi codici. E tutti questi provvedimenti 
+          sulla <choice><orig>ubbriachezza</orig><reg>ubriachezza</reg></choice>, 
+          <choice><orig>sulla emigrazione</orig><reg>sull’emigrazione</reg></choice>, 
+          <term type="theme">sul lavoro di fanciulli nelle fabbriche</term>, 
+          li considerano come capitoli non di una legge, ma di un regolamento di pubblica sicurezza. 
+          Noi portiamo un avviso interamente opposto. 
+          Noi crediamo che quando si tratta di limitare la <term type="theme">libertà umana</term>, 
+          sia necessaria una <term type="theme">legge</term> precisa e chiara. 
+          In questi casi i provvedimenti sono complessi e appartengono alla <term type="theme">legislazione sociale</term>, 
+          in questo senso che fondono insieme elementi 
+          <term type="economic">economici</term>, <term type="legal">giuridici</term>, <term type="moral">morali</term>, 
+          i quali collettivamente <choice><orig>conserti</orig><reg>congiunti</reg></choice> compongono un corpo nuovo. 
+          <choice><orig>Com’e</orig><reg>Com’è</reg></choice> lecito pensare che leggi di tale specie, così fini, delicate e complicate 
+          possano essere argomento di <choice><orig>abborracciati</orig><reg>improvvisati</reg></choice> regolamenti 
+          nei <orgName type="institution" ref="#Ministeri">Ministeri</orgName> o nelle <orgName type="institution" ref="#Questure">Questure</orgName>? 
+          Non è lecito pensarlo.
+
+          E <choice><orig>Invero</orig><reg>In verità</reg></choice>, gli <name type="national">inglesi</name>, 
+          che fino ad ora sono i maestri in <choice><orig>cotali</orig><reg>tali</reg></choice> materie, 
+          hanno promulgato <term type="theme">leggi speciali</term> molto minute, 
+          che essi correggono continuamente per conformarle alle mutevoli condizioni di fatto. 
+          Sulla <choice><orig>ubbriachezza</orig><reg>ubriachezza</reg></choice> vi sono in 
+          <placeName ref="#Inghilterra">Inghilterra</placeName> molte <term type="theme">leggi recenti</term>, 
+          che si completano gradatamente e contengono anche le linee principali dei loro regolamenti, 
+          che i corpi locali si vanno elaborando. 
+          Le <term type="theme">leggi</term> contengono <choice><orig>la indicazione</orig><reg>l’indicazione</reg></choice> delle ore 
+          nelle quali si devono chiudere le varie <placeName type="economic">bettole</placeName>, 
+          e nelle città grandi e nei borghi vennero prescritte ore diverse. 
+          Noi <choice><orig>vagheggiamo</orig><reg>auspichiamo</reg></choice> questo tipo, 
+          il solo degno di un reggimento rappresentativo. 
+          La <term type="legal">legge sulla <choice><orig>emigrazione</orig><reg>emigrazione</reg></choice></term>, 
+          la <term type="legal">legge sulla <choice><orig>ubbriachezza</orig><reg>ubriachezza</reg></choice></term>, 
+          la <term type="legal">legge del lavoro dei fanciulli</term> esordirebbero questa maniera di 
+          <term type="theme">legislazione sociale</term>, di cui le popolazioni italiane sentono il bisogno indistinto, 
+          e che i publicisti e i legislatori devono interpretare. 
+
+          <choice><orig>Imperocché</orig><reg>Poiché</reg></choice> per nostra sventura, 
+          mentre in <placeName ref="#Inghilterra">Inghilterra</placeName> il bisogno delle <term type="theme">grandi riforme</term> sgorga dalle coscienze popolari, 
+          in <placeName ref="#Italia">Italia</placeName> l’oracolo è muto e sono pochi a indovinarne i pensieri 
+          e interrogarne i secreti dolori, i quali perché non fanno strepito, 
+          si negano dai soddisfatti e dagli sfaccendati magnifici.
+        </p>
+      </div>
+
+      <div xml:id="articolo-legislazione-sociale">
+        
+        <head>LA LEGISLAZIONE E LE QUESTIONI SOCIALI</head>
+
+        <list type="keywords">
+            <item><term>legislazione sociale</term></item>
+            <item><term>questioni sociali</term></item>
+            <item><term>inchiesta agraria</term></item>
+            <item><term>emigrazione</term></item>
+            <item><term>tutela fisica</term></item>
+            <item><term>mutuo soccorso</term></item>
+            <item><term>istituti previdenziali</term></item>
+            <item><term>casse di risparmio</term></item>
+            <item><term>Banche popolari</term></item>
+            <item><term>società cooperative</term></item>
+            <item><term>società anonime</term></item>
+            <item><term>codice di commercio</term></item>
+            <item><term>tutela caldaie a vapore</term></item>
+            <item><term>danni sul lavoro</term></item>
+            <item><term>opifici insalubri</term></item>
+            <item><term>classi lavoratrici</term></item>
+            <item><term>classi popolari</term></item>
+            <item><term>Comuni</term></item>
+            <item><term>Istituti benefici</term></item>
+            <item><term>Ministro dell’interno</term></item>
+            <item><term>Parlamento</term></item>
+            <item><term>Senato</term></item>
+            <item><term>Camera</term></item>
+            <item><term>Giunta per l'inchiesta agraria</term></item>
+            <item><term>Associazione per il progresso degli studi economici</term></item>
+            <item><term>Congresso degli economisti</term></item>
+            <item><term>Commissione governativa per l'emigrazione</term></item>
+            <item><term>Società di mutuo soccorso</term></item>
+            <item><term>Casse di risparmio del Durino</term></item>
+            <item><term>Ancona</term></item>
+            <item><term>Casale</term></item>
+            <item><term>Firenze</term></item>
+          </list>
+    
+          <p facs="#zone3">
+            Siete <roleName type="role">teorici</roleName>, ci diranno, leggendo che noi invochiamo dai nostri 
+            <roleName type="role">governanti</roleName> maggior operosità riguardo alle <term type="theme">questioni sociali</term>. 
+            <orgName type="institution" ref="#Governo">Governo</orgName> e <orgName type="institution" ref="#Parlamento">Parlamento</orgName> hanno ben altro per il capo! 
+            Fantastici disegni di <term type="infrastructure">ferrovie</term>; 
+            leggiadre rivoluzioni amministrative, che con più 
+            leggiadro vocabolo si chiamano 
+            <term type="legal">organici</term>; vasti progetti di 
+            <term type="legal">riforme elettorali</term>, comunali e giudiziarie, che non approdano mai; 
+            ecco le gradite occupazioni 
+            <choice><orig>ile’</orig><reg>il</reg></choice> nostri 
+            <roleName type="role">reggitori</roleName>, quando non si stillano il cervello per dar luogo ad uno di quei 
+            curiosi fenomeni, i quali a torto continuano a chiamarsi <hi rend="italic">crisi</hi>, 
+            dopo che sono diventati una <term type="theme">malattia cronica</term> del nostro paese.
+          </p>
+
+          <p facs="#zone4">
+            Qualche <orgName type="institution">voce autorevole</orgName> si alza ogni tanto per risvegliare ne’ 
+            <orgName type="institution">deputati</orgName> e ne’ <orgName type="institution">ministri</orgName> sentimenti più umani, 
+            per confortarli ad una <term type="theme">politica</term> più accorta; e sulle prime sembra veramente che si ottenga l’effetto. 
+            Ma ciò che altri attribuirebbe a vivo e sincero desiderio del bene, è piuttosto dovuto a singolare gentilezza di 
+            <term type="theme">costumi</term>. 
+            Disputare, bisticciarsi e se occorre accapigliarsi per il possesso di un 
+            <term type="nonStandard"><orig>portafoglio</orig><reg>incarico ministeriale</reg></term>, s’intende; 
+            negare ad un collega l’innocente piacere di <hi rend="italic">svolgere</hi>, (dicono così) uno schema di legge, 
+            o di vincere un’inchiesta, sarebbe atto 
+            <term type="nonStandard"><orig>inurbano</orig><reg>maleducato</reg></term> e, quel che è peggio, 
+            costituirebbe un pericoloso precedente.
+          </p>
+
+          <p facs="#zone5">
+            Ma poi, <hi rend="italic">svolte</hi> le idee e deliberata l’<term type="legal">inchiesta</term>, 
+            non ne viene alcuna funesta conseguenza; 
+            <choice><sic>perchè</sic><corr>perché</corr></choice> la 
+            <term type="legal">legge</term>, se è d’interesse generale e non si riferisce al campanile dell’<hi rend="italic"><persName>A.</persName></hi> 
+            o dell’<hi rend="italic"><persName>B.</persName></hi>, non va oltre la <hi rend="italic">presa in considerazione</hi>, 
+            e l’<term type="legal">inchiesta</term>, o non si fa, o si eseguisce in guisa da non disturbar nessuno.
+          </p>
+
+          <p facs="#zone6">
+            Il soggetto che additiamo all’attenzione de’ nostri lettori ci porge alcuni esempi. 
+            Cominciamo dall’<term type="legal">inchiesta agraria</term>. Quando fu deliberata, annuenti 
+            <orgName type="institution">Destra</orgName> e <orgName type="institution">Sinistra</orgName>, 
+            parve chiaro che dovesse particolarmente mirare allo studio delle miserabili condizioni de’ contadini, 
+            le quali sono di vergogna al nostro paese e possono porne a repentaglio le sorti. 
+            Anche la costituzione della <orgName type="institution" ref="#GiuntaInchiestaAgraria">Giunta</orgName>, 
+            tutta di <orgName type="institution">deputati</orgName> e senatori, e dove l’elemento prettamente tecnico non era rappresentato, 
+            mostrava che ai suoi lavori si prescriveva carattere economico e sociale. 
+            La <orgName type="institution" ref="#GiuntaInchiestaAgraria">Giunta</orgName> avrebbe dovuto percorrere le varie 
+            <placeName type="administrative" ref="#provincieRegno">provincie del regno</placeName>, 
+            e visitare gli <term type="nonStandard"><orig>abituri</orig><reg>abituali luoghi</reg></term> de’ contadini e i campi sudati; 
+            e saggiare lo scarso e soventi non salubre cibo; e scrutare i costumi, e analizzare i contratti colonici. 
+            Se fosse stata animata da un
+          </p>
+
+          <p facs="#zone7">
+            Vero <term type="theme">spirito di carità</term>, a quest’ora qualche <term type="theme">frutto</term> si sarebbe raccolto. 
+            Invece la <orgName type="institution" ref="#GiuntaInchiestaAgraria">Giunta</orgName> non fece altro che bandire dei 
+            <term type="legal">concorsi</term> e consumare molto 
+            <term type="nonStandard"><orig>danaro</orig><reg>denaro</reg></term>; 
+            ma non venne ad alcuna conclusione; ed oramai disperiamo che se ne possa ottenere qualche effetto.
+          </p>
+
+          <p facs="#zone8">
+            Un altro tema, che tocca molto da vicino le 
+            <term type="nonStandard"><orig>quistioni</orig><reg>questioni</reg></term> agrarie, è quello dell’
+            <term type="theme">emigrazione</term>. 
+            Se ne occuparono scrittori valenti; fu portato dall’ 
+            <hi rend="italic"><orgName type="institution" ref="#AssociazioneProgressiEconomici">Associazione per il progresso degli studi economici</orgName></hi> 
+            (la quale, tra parentesi, promise molto e non attenne nulla) davanti al 
+            <orgName type="institution" ref="#CongressoEconomisti">Congresso degli economisti</orgName>; 
+            fu esaminato da una <orgName type="institution" ref="#CommissioneEmigrazione">Commissione governativa</orgName> nel 
+            <date when="1876">1876</date>; 
+            <term type="nonStandard"><orig>diè</orig><reg>diede</reg></term> luogo a un progetto di legge sottoposto al 
+            <orgName type="institution" ref="#Senato">Senato</orgName> dal ministro 
+            <persName ref="#Finali">Finali</persName>, e poi ad altri disegni presentati alla 
+            <orgName type="institution" ref="#Camera">Camera</orgName> dagli on. 
+            <persName ref="#Minghetti">Minghetti</persName>, 
+            <persName ref="#Luzzatti">Luzzatti</persName> e 
+            <persName ref="#DelGiudice">Del Giudice</persName>. 
+            Ma quali furono gli effetti di questi moti? Che nell’anno di grazia 
+            <date when="1879">1879</date> l’<placeName ref="#Italia">Italia</placeName> è il solo paese civile che non freni con leggi speciali 
+            gli abusi degli agenti d’<term type="theme">emigrazione</term> e che lasci in balìa del 
+            <orgName type="institution">Ministro dell’interno</orgName> di concedere corso sfrenato a questo grande fatto sociale 
+            o di opporvisi violentemente.
+          </p>
+
+          <p facs="#zone9">
+            E nel campo dell’industria non si sta meglio. 
+            <term type="nonStandard"><orig>Taluno</orig><reg>Qualcuno</reg></term> ha potuto credere che un’altra grave lacuna della patria legislazione sarebbe colmata, 
+            porgendo onesta tutela ai fanciulli e alle donne che lavorano nelle miniere e nelle fabbriche. 
+            Parecchi progetti di legge furono preparati dal <orgName type="institution" ref="#Governo">Governo</orgName> 
+            per disciplinare l’impiego de’ fanciulli nelle miniere; vivaci e memorabili furono le lotte tra 
+            <choice><sic><damage type="smudge">le'cosiddette</damage></sic><corr>le cosiddette</corr></choice> due scuole di economisti;
+            e l’on. <persName ref="#Cairoli">Cairoli</persName>, assumendo per la prima volta il potere, promise solennemente che leggi di protezione sarebbero state preparate al 
+            <orgName type="institution" ref="#Parlamento">Parlamento</orgName>. 
+            Ma non se ne fece nulla; e nelle miniere di <placeName ref="#Sicilia">Sicilia</placeName> 
+            e ne’ <term type="infrastructure">filatoi <name type="national">lombardi</name></term>, e si può dire in tutte le nostre fabbriche si fa strazio delle future generazioni; 
+            e le donne sono astrette a lavori incomportabili; 
+            e molte officine non corrispondono ai precetti dell’igiene.
+          </p>
+
+          <p facs="#zone10">
+            Se manca la <term type="theme">tutela fisica</term>, non abbondano le 
+            <term type="nonStandard"><orig>guarentigie</orig><reg>garanzie</reg></term> per gli interessi materiali degli operai. 
+            E anche qui la colpa principale vuol essere attribuita alla mancanza di buone leggi. 
+            È uso di levare alle stelle i savi e liberali ordinamenti delle 
+            <orgName type="institution">Casse di risparmio italiane</orgName> e si additano con orgoglio le crisi superate, i servigi resi da lunghi anni 
+            e i seicento milioni di depositi che hanno raccolto. 
+            Noi forse saremo condotti un giorno a indagare se questi 
+            <term type="theme">istituti di previdenza</term> 
+            <choice><sic>sian</sic><corr>siano</corr></choice> proprio quella cosa perfetta che comunemente si crede. 
+            Le rovine delle <orgName type="institution" ref="#CasseRisparmioDurino">Casse di risparmio del 
+            <placeName ref="#Durino">Durino</placeName></orgName>, di quella d’<placeName ref="#Ancona">Ancona</placeName>, 
+            di quella di <placeName ref="#Casale">Casale</placeName> e i fatti notabili accaduti di recente a 
+            <placeName ref="#Firenze">Firenze</placeName>, 
+            <choice><sic>c’impensieriscono</sic><corr>ci impensieriscono</corr></choice>. 
+            Si sa che queste <orgName type="institution">Casse</orgName> sorgono per opera 
+            <choice><sic>de’</sic><corr>dei</corr></choice> <orgName type="institution">Comuni</orgName> o di 
+            <orgName type="institution">istituti benefici</orgName>, o per virtù di private associazioni; con 
+            <term type="legal">decreto reale</term> si concedono ad esse le prerogative di 
+            <term type="legal">corpi morali</term> e si procura che i loro statuti siano formulati in modo commendevole. 
+            Ma nessuna legge dà norma a ciò; e tutto è rimesso al prudente arbitrio 
+            <choice><sic>de’</sic><corr>dei</corr></choice> <orgName type="institution">Ministri del commercio</orgName>, 
+            o meglio <choice><sic>de’</sic><corr>dei</corr></choice> loro primari 
+            <term type="nonStandard"><orig>uffiziali</orig><reg>ufficiali</reg></term>. Onde molta varietà e grande confusione. 
+            Poi non si bada se gli statuti siano osservati e se ne rimette la cura agli interessati; 
+            i quali però non sono altro che <hi rend="italic">depositanti</hi>, cioè la categoria di persone meno atta a tutelare le proprie ragioni. 
+            Costoro, finché vedono 
+            <quote><choice><sic>'gli</sic><corr>gli</corr></choice> sportelli aperti</quote>, accorrono col danaro in mano; 
+            appena dubitano che si chiudano, assaltano furiosamente le <orgName type="institution">Casse</orgName> 
+            e, con la sfiducia soverchia, aggravano la rovina, che ebbe origine da esagerata confidenza. 
+            Speriamo di non esser profeti; ma se una grande crisi agiterà il nostro 
+            <placeName>paese</placeName>, molte <orgName type="institution">Casse di risparmio</orgName> si avvedranno della propria debolezza 
+            e il <roleName type="role">legislatore</roleName> tardi si pentirà di non aver provveduto.
+          </p>
+
+          <p facs="#zone11">
+            Altri istituti 
+              <term type="nonStandard"><orig>previdenti</orig><reg>previdenziali</reg></term>
+            , che hanno per le 
+            <term type="theme">classi operaie</term> anche maggiore importanza, 
+            invocano invano da lunghi anni.
+          </p>
+
+          <p facs="#zone12">
+            una provvida legislazione. Parliamo delle 
+            <orgName type="institution" ref="#SocietaMutuoSoccorso">Società di mutuo soccorso</orgName>. 
+            A questo <choice><sic>mono</sic><corr>con</corr></choice> pochissime e non sempre giustificate eccezioni 
+            si nega anche il conforto del <term type="theme">decreto reale</term>, 
+            che conferisca loro la <term type="theme">personalità giuridica</term>. 
+            Ne segue che non possono stare in giudizio; 
+            <choice><sic>nè</sic><corr>né</corr></choice> raccogliere eredità; 
+            <choice><sic>nè</sic><corr>né</corr></choice> costringere i soci ed i terzi all’adempimento delle obbligazioni; 
+            e sono spesso tradite dai loro mandatari. 
+            Inoltre queste <orgName type="institution">Società</orgName> molto di frequente si costituiscono, 
+            senza neppur sospettare che gli infortuni ai quali vogliono sovvenire 
+            (<term type="theme">la malattia</term>, <term type="theme">la morte</term>, ecc.) 
+            sono fenomeni regolati da <term type="theme">leggi naturali</term>; 
+            e quindi occorre che le relazioni tra i contributi domandati ai soci 
+            e i soccorsi promessi rispondano a queste leggi. 
+            E, credendo di far bene e bramando avere folta schiera di consorti, 
+            amano di chieder poco e prometter molto, mettendo la più stolta delle imprevidenze 
+            a fondamento degli istituti che devono provvedere all’incerto avvenire dell’operaio. 
+            Per un <choice><sic>po’</sic><corr>pò</corr></choice> di tempo le cose paiono camminar bene, 
+            perché i soci sono giovani e poco travagliati dalle malattie 
+            e non decimati dalla morte; ma più tardi le 
+            <orgName type="institution">associazioni mutue</orgName> 
+            vedono mancare i mezzi per adempiere ai loro obblighi; 
+            e il vecchio <term type="theme">operaio</term> perde il frutto 
+            <choice><sic>de’</sic><corr>dei</corr></choice> suoi risparmi 
+            e, inetto a scrutare le cagioni della rovina, l’attribuisce, 
+            non ad ignoranza, ma a malvagità. 
+            Onde al danno di tante povere famiglie, si aggiunge il discredito del 
+            <term type="theme">mutuo soccorso</term>.
+          </p>
+
+          <p facs="#zone13">
+            Se ascendiamo qualche altro gradino della scala degli istituti che tendono a promuovere il miglioramento delle 
+            <term type="theme">classi lavoratrici</term>, 
+            <choice><sic>e’</sic><corr>e</corr></choice> incontriamo nelle 
+            <orgName type="institution" ref="#BanchePopolari">Banche popolari</orgName>, 
+            le quali <choice><sic>bau</sic><corr>han</corr></choice> dovuto 
+            <term type="nonStandard"><orig>soventi</orig><reg>spesso</reg></term> prendere forme non interamente adatte alla loro natura, 
+            perché manca una legge che le disciplini, e debbono acconciarsi alle disposizioni che il 
+            <term type="legal">codice di commercio</term> del 
+            <date when="1865">1865</date> assegna alle <orgName type="institution">Società anonime</orgName>. 
+            Vero è che da oltre due lustri si attende alla riforma di questo codice, opera oltremodo imperfetta, 
+            ma non siamo vicini ad afferrare il porto, 
+            e se le <orgName type="institution">società cooperative</orgName> domandassero salute alle nuove leggi commerciali 
+            mostrerebbero di essere molto ingenue.
+          </p>
+
+          <p facs="#zone14">
+            Potremmo dilungarci ricordando che invano fu proposta, 
+            <term type="nonStandard"><orig>anni sono</orig><reg>molti anni fa</reg></term>, 
+            una legge rivolta a tutelare <term type="theme">vite</term> e 
+            <term type="theme">proprietà</term> contro i pericoli di scoppio delle 
+            <term type="theme">caldaie a vapore</term>, pericoli che minacciano soprattutto gli 
+            <term type="theme">operai</term>, ed un’altra più recente e di più ampia protezione pei danni che gli 
+            <term type="theme">operai</term> risentono nei lavori; potremmo accennare l’inefficacia delle disposizioni accolte nelle 
+            <term type="theme">leggi sanitarie</term> riguardo agli <term type="theme">opifici insalubri</term>; 
+            ma ci sembra che le cose dette bastino a chiarire che i nostri legislatori non hanno mostrato di apprezzare al loro giusto valore le 
+            <term type="theme">quistioni sociali</term>. 
+            E se consideriamo le condizioni del <orgName type="institution" ref="#Parlamento">Parlamento</orgName>, 
+            non vediamo ragione di sperare che in avvenire sia per risvegliarsi in essi la coscienza del dovere di curare con amorevole sollecitudine 
+            il benessere delle <term type="theme">classi popolari</term>.
+          </p>
+      </div>
+
+      <div xml:id="recensione-capuana-giacinta">
+
+        <head> <persName ref="#capuana">Luigi Capuana</persName>,<title type="work" ref="#bibl-giacinta"><hi rend="italic">Giacinta</hi></title>. — <placeName ref="#milano">Milano</placeName>, <orgName type="publisher" ref="#brigola">Brigola</orgName> <date>1879</date>.</head>
+
+        <list type="keywords">
+          <item><term>corruzione</term></item>
+          <item><term>amore colpevole</term></item>
+          <item><term>sensualità</term></item>
+          <item><term>amore</term></item>
+          <item><term>suicidio</term></item>
+          <item><term>aspirazioni oneste</term></item>
+          <item><term>debito di odio verso la società</term></item>
+          <item><term>colpa</term></item>
+          <item><term>convenzioni sociali</term></item>
+          <item><term>adulterio</term></item>
+          <item><term>società</term></item>
+          <item><term>misticismo sensuale</term></item>
+          <item><term>patologia morale</term></item>
+          <item><term>pantano della più schifosa abbiezione</term></item>
+          <item><term>mantenuto</term></item>
+          <item><term>vergogna</term></item>
+          <item><term>sentimento sublime</term></item>
+          <item><term>natura umana</term></item>
+          <item><term>assurdo</term></item>
+          <item><term>romanziere</term></item>
+          <item><term>vero</term></item>
+          <item><term>strano</term></item>
+        </list>
+
+        <p facs="#zone15"> 
+          L’<name type="person" ref="#autore">A.</name> in fronte al suo volume sente il bisogno di porre questa dichiarazione: 
+          <quote>«<choice><sic><damage type="smudge">II</damage></sic><corr>Ho</corr></choice> la coscienza di avere scritto un libro 
+            <choice><sic>nè</sic><corr>né</corr></choice> <term type="moral">ipocrita</term> 
+            <choice><sic>nè</sic><corr>né</corr></choice> <term type="moral">immorale</term>»</quote>. 
+          Chi si scusa si accusa, e se
+        </p>
+
+        <p facs="#zone16">
+          Il <persName ref="#capuana">Capuana</persName> sentiva giustamente di non avere scritto un libro 
+          <term type="moral">ipocrita</term>, non poteva certo credere di avere scritto un libro 
+          <term type="moral">morale</term>. 
+          Il <persName ref="#capuana">Capuana</persName> ci trasporta in una società dove tutto è 
+          <term type="moral">corruzione</term>; i personaggi sono abbietti o imbecilli, e le loro anime non sono mai illuminate da un pallido raggio di 
+          <term type="moral">virtù</term>, o di <term type="moral">generosità</term>. 
+          Il solo <persName type="fictional" ref="#fullini">dottor Fullini</persName>, che, a differenza degli altri, alza gli occhi ad un cielo dove la realtà si purifica, 
+          senza perdersi punto in una <term type="theme">idealità</term> fuori del mondo, è una nobile figura, ma sbozzata in fretta, 
+          e che comparisce appena verso la fine del volume. 
+          Si vede che il <persName ref="#capuana">Capuana</persName> si compiace più a dipingere gli spiriti guasti e le anime ammalate. 
+          Lo scrittore dovrebbe ricordarsi che la vita non è tutta buona 
+          <choice><sic>nè</sic><corr>né</corr></choice> tutta cattiva, ma un misto di 
+          <term type="moral">vizi</term> e di <term type="moral">virtù</term>, e che sono nel falso tanto quelli che cercano solo il 
+          bello come quelli che per amore di originalità non 
+          <choice><sic>veggono</sic><corr>vengono</corr></choice> che il brutto. 
+          C’è convenzione d’ogni sorta. 
+        </p>
+
+        <p facs="#zone17">
+          Ma se <title type="work" ref="#bibl-giacinta"><hi rend="italic">la Giacinta</hi></title> non è riuscito un libro 
+          <term type="moral">morale</term>, è riuscita almeno, come era nei voti dell’<name type="person" ref="#autore">A.</name>, 
+          una vera opera d’arte?
+        </p>
+
+        <p facs="#zone18">
+          <choice><sic><damage type="smudge">S</damage>o</sic><corr>Se</corr></choice> questo romanzo lascia in fondo all’anima come una posatura di disgusto, 
+          bisogna confessare però che non si può non ammirare un certo splendore di descrizioni e la verità di alcune osservazioni. 
+          Non è una vera opera d’arte perché nell’insieme il quadro non è perfetto, 
+          ma chi ha scritto <title type="work" ref="#bibl-giacinta"><hi rend="italic">Giacinta</hi></title> 
+          si rivela artista nei particolari. 
+          Il <persName ref="#capuana">Capuana</persName>, pure imitando lo <persName ref="#zola">Zola</persName>, 
+          sa avere una fisonomia che è tutta sua, e si fa distinguere dagli altri 
+          <term type="literaryMovement" ref="#naturalismo">romanzieri <name type="national">italiani</name></term>.
+        </p>
+
+        <p facs="#zone19">
+          L’argomento è tenue come un <term type="nonStandard">ragnatelo</term>. 
+          Sono avventure mille volte accadute e mille volte narrate. 
+          È la descrizione di un <term type="theme">amore colpevole</term>, pieno di 
+          <term type="theme">sensualità</term> e di raffinatezze eleganti, di stanchezze e di ebrezze, di dolori e di gioie, 
+          un <term type="theme">amore</term> che finisce col <term type="theme">suicidio</term>.
+        </p>
+
+        <p facs="#zone20">
+          La novità sta nei particolari, sta nelle fini osservazioni psicologiche, ma più che tutto nell’indole della protagonista. 
+          <title type="work" ref="#bibl-giacinta"><hi rend="italic">La Giacinta</hi></title> infatti è una donna che non rassomiglia ad alcun’altra. 
+          Venendo al mondo essa aveva recato poco piacere a sua madre, la quale se n’era subito sbarazzata dandola a balia in campagna 
+          e andando a vederla il meno possibile, e sempre accompagnata da giovani cugini. 
+          A cinque anni la bimba fu ritirata in famiglia. 
+          Ma <persName type="fictional" ref="#giacinta">la Giacinta</persName> non trovò nella casa paterna alcuna gioia infantile; 
+          il padre vedeva poco la <choice><sic>figliuolina</sic><corr>figliolina</corr></choice>, 
+          e la mamma, seccata di quella trottolina che si ritrovava sempre tra’ piedi, la trattava seccamente. 
+          Sola, abbandonata a <choice><sic>sè</sic><corr>sé</corr></choice> stessa, la povera bimba non aveva altra compagnia 
+          che quella di un servitore di casa, un monello vizioso e corrotto. 
+          Il <persName ref="#capuana">Capuana</persName> dipinge con particolari soverchi i compiacimenti sensualmente morbosi di questo ragazzo, 
+          che <choice><sic>finisco</sic><corr>finiscono</corr></choice> per contaminare la piccola compagna dei suoi giuochi. 
+          Passati alcuni anni in collegio, <persName type="fictional" ref="#giacinta">la Giacinta</persName> ritorna a casa. 
+          I tristi ricordi del passato, la nausea del presente, gli sgomenti dell’avvenire infiammano la sua mente fantastica 
+          od avviliscono il suo cuore. 
+          Incomincia in lei la lotta delle <term type="theme">aspirazioni oneste</term> e serene 
+          <choice><sic>colle</sic><corr>con le</corr></choice> dispettose diffidenze del mondo, che non ignorava e derideva la sua sciagura; 
+          la lotta dei primi palpiti dell’animo, che si affaccia alla vita, 
+          <choice><sic>colla</sic><corr>con la</corr></choice> <term type="moral">vergogna</term> di una 
+          <term type="moral">colpa</term> che non era sua.
+        </p>
+
+        <p facs="#zone21">
+          Impotente a vincere <choice><sic>colla</sic><corr>con la</corr></choice> virtù e la rassegnazione, 
+          essa sentì a poco a poco isterilirsi nell’animo ogni sentimento elevato e divenne perversa, 
+          credendo così pagare il suo <term type="theme">debito di odio verso la società</term>. 
+          Assaporò l’acre voluttà della <term type="theme">colpa</term> prima ancora di rendersi rea, 
+          e sposò un  <addName type="epithet">conte citrullo</addName> tanto per salvare le 
+          <term type="theme">convenzioni sociali</term>, e potersi dare all’uomo che amava senza imporgli 
+          la vergogna della sua onta, che imponeva invece al marito. 
+          Libera della sua volontà, voleva che le sue legittime nozze fossero nell’<term type="theme">adulterio</term>. 
+          Si com-
+        </p>
+
+        <p facs="#zone22">
+          Prende tanta audace risolutezza in una donna dell’indole della 
+          <persName type="fictional" ref="#giacinta">Giacinta</persName>, si comprende come essa non abbia più alcun riguardo per la 
+          <term type="theme">società</term> che le era stata nemica, si comprende come questa donna eccessiva si lasci andare, 
+          senza alcun ritegno, ad una corsa sfrenata, vertiginosa, perdendosi in una specie di 
+          <term type="theme">misticismo sensuale</term>. 
+          È un caso di <term type="theme">patologia morale</term> studiato con intelletto d’artista. 
+          Quindi si giunge anche a comprendere l’amore di 
+          <persName type="fictional" ref="#giacinta">Giacinta</persName> per un uomo comune e volgare come era 
+          <persName ref="#andrea">Andrea</persName>, ch’essa domina 
+          <choice><sic>colla</sic><corr>con la</corr></choice> vigoria del suo spirito, ma non si capisce come una donna, 
+          nata per essere <quote>«una onesta e buona madre di famiglia, un modello di moglie»</quote>, 
+          possa condannare l’uomo del suo cuore a vivere nel 
+          <term type="theme">pantano della più schifosa abbiezione</term>, obbligandolo ad essere un 
+          <term type="theme">mantenuto</term>. 
+          È l’estremo dell’indegnità, cui possa arrivare il cuore di una donna. 
+          Tanto valeva sposare <persName type="fictional" ref="#andrea">Andrea</persName> addirittura. 
+          Volere che l’uomo, a cui è debitrice del primo e sincero palpito d’affetto, diventi il suo amante, ma non marito, 
+          per non renderlo partecipe della sua <term type="theme">vergogna</term>, può essere, secondo uno speciale punto di vista, 
+          un <term type="theme">sentimento sublime</term>. 
+          Ma una donna capace di tale sentimento non infligge poi all’uomo del suo cuore una vergogna maggiore. 
+          È una brutta stranezza che ci pare difficilmente scusabile, anche ammettendo le mille contraddizioni della 
+          <term type="theme">natura umana</term>. 
+          È certo alla mente del lettore fa l’effetto di un <term type="theme">assurdo</term>. 
+          Abbiam detto che l’<name type="person" ref="#autore">A.</name> si rivela buon artista nei particolari. 
+          Vi sono infatti pagine scritte col cuore, dialoghi pieni di verità, osservazioni che mostrano uno studio attento, accurato, 
+          acuto dell’animo umano. 
+          La forma non è pura, ma efficace; e la pittura del paesaggio è sobria, ma di buon colore. 
+          In questo scrittore ci sono in germe le qualità vere del <term type="theme">romanziere</term>: 
+          questa sua <title type="work" ref="#bibl-giacinta"><hi rend="italic">Giacinta</hi></title> potrebbe essere una prova di quanto egli saprebbe fare, 
+          se si limitasse a dipingere il <term type="theme">vero</term>, senza correre dietro allo 
+          <term type="theme">strano</term>.
+        </p>
+      </div>
+
+      <div xml:id="documenti-bruno-berti">
+
+        <head> <persName ref="#berti">Domenico Berti</persName>,  <title type="work" ref="#docBruno">Documenti intorno a <persName ref="#bruno">Giordano Bruno</persName> da Nola</title>. —  <placeName ref="#roma">Roma</placeName>,  <orgName type="publisher" ref="#salviucci">Salviucci</orgName>,  <date when="1880">1880</date>.</head>
+        
+        <list type="keywords">
+          <item><term>libertà di coscienza</term></item>
+          <item><term>fermezza eroica</term></item>
+          <item><term>dottrine religiose</term></item>
+          <item><term>verità storica</term></item>
+          <item><term>rinnovato arianesimo</term></item>
+          <item><term>sette arti liberali</term></item>
+          <item><term>ricerca storica</term></item>
+          <item><term>intelletto</term></item>
+          <item><term>dottrina</term></item>
+          <item><term>sapere</term></item>
+          <item><term>documenti</term></item>
+          <item><term>scrittura</term></item>
+          <item><term>manoscritto</term></item>
+          <item><term>autografo</term></item>
+          <item><term>processo</term></item>
+          <item><term>sentenza</term></item>
+          <item><term>prigionia</term></item>
+          <item><term>morte</term></item>
+          <item><term>filosofi italiani</term></item>
+          <item><term>riformatori</term></item>
+        </list>
+
+        <p facs="#zone23">
+          Già altra volta in questo nostro 
+          <orgName type="journal" ref="#rassegna">giornale</orgName> abbiamo fatto cenno delle assidue fatiche del 
+          <persName ref="#berti">Berti</persName> sui <roleName type="role">filosofi</roleName> e sui 
+          <roleName type="social">riformatori italiani</roleName><note type="footnote" target="#nota1">*</note>, 
+          per le quali nuova o maggior luce si è sparsa sulle <term type="textual">scritture</term> di 
+          <persName ref="#pico">Pico della Mirandola</persName>, di 
+          <persName ref="#galileo">Galileo</persName>, del 
+          <persName ref="#cremonino">Cremonino</persName>, del 
+          <persName ref="#campanella">Campanella</persName> e di 
+          <persName ref="#bruno">Giordano Bruno</persName>. Dopo avere scritto di quest’ultimo una 
+          <title type="work" ref="#vitaBruno">vita</title>, che per piena intelligenza del soggetto e per esattezza e copia di 
+          <term type="textual">notizie</term> facilmente superò quella del 
+          <persName ref="#bartholmess">Bartholmèss</persName>, il 
+          <persName ref="#berti">Berti</persName> adesso raccoglie insieme nuovi 
+          <term type="textual">documenti</term> intorno al <roleName type="role">filosofo</roleName> nolano, cioè il 
+          <term type="legal">processo</term> iniziatogli contro a 
+          <placeName ref="#venezia">Venezia</placeName>, ed alcune autentiche 
+          <term type="textual">notizie</term> sul <term type="theme">soggiorno</term> di 
+          <placeName ref="#ginevra">Ginevra</placeName>, sulla <term type="theme">prigionia</term> di 
+          <placeName ref="#roma">Roma</placeName> e sulla <term type="theme">morte</term>. 
+          Vi si aggiunge la notizia analitica di un <term type="textual">manoscritto</term> 
+          <term type="textual">autografo</term>, ora posseduto dal 
+          <persName ref="#noroff">signor de Noroff</persName> di 
+          <placeName ref="#pietroburgo">Pietroburgo</placeName>. 
+          I <term type="textual">documenti</term> sono importanti, benché non schiariscano tutti i dubbi 
+          <choice><sic>nè</sic><corr>né</corr></choice> empiano tutte le 
+          <term type="theme">lacune</term> della vita errabonda ed infelice del 
+          <persName ref="#bruno">Bruno</persName>. Appare sempre più in essi lo 
+          <term type="moral">zotico intelletto</term> e il <term type="moral">basso animo</term> del denunciatore 
+          <persName ref="#mocenigo">Mocenigo</persName>, e la <term type="moral">titubanza</term> della 
+          <orgName type="institution" ref="#signoriaVeneta">Signoria veneta</orgName> a consegnare un uomo in che essa riconosceva 
+          <quote>«uno dei più eccellenti e rari <term type="moral">ingegni</term> che si possano desiderare, 
+          et di <choice><sic>esquisita</sic><corr>squisita</corr></choice> <term type="moral">dottrina</term> 
+          e <term type="moral">sapere</term>»</quote>; 
+          la ferma risoluzione degli 
+          <orgName type="institution" ref="#inquisizioneRomana">inquisitori romani</orgName> nel condannarlo, 
+          tale da non aver voluto leggere un ultimo <term type="textual">memoriale</term> del morituro 
+          <roleName type="role">filosofo</roleName>, nel quale cercava difendersi; 
+          e più ch’altro, la <term type="theme">fermezza eroica</term> di lui nel sacrificar la vita per la 
+          <term type="theme">libertà di coscienza</term>. 
+          Il <persName ref="#berti">Berti</persName> inclina a credere che rispetto a 
+          <term type="theme">dottrine religiose</term> <choice><orig>ei</orig><reg>egli</reg></choice> fosse, come altri <name type="national">italiani</name> dell’età sua, aderente ad una spe-
+        </p>
+
+        <note xml:id="nota1" type="bibliographic">V. <title type="journal" ref="#rassegna">Rassegna</title>, vol. II, pag. 83.</note>
+
+        <p facs="#zone24">
+          cie <term type="moral">rinnovato arianesimo</term>: ma, 
+          <choice><orig>ei</orig><reg>egli</reg></choice> soggiunge:  
+          <quote>«<choice><orig>le</orig><reg>le</reg></choice> 
+            <choice><sic><damage type="smudge">suo</damage></sic><corr>sue</corr></choice>
+            <term type="theme">idee religiose</term> rimasero e allora e poi 
+            <term type="moral">occulte</term> e <term type="moral">chiuse</term>, 
+            e ci <choice><orig>bisognano</orig><reg>necessitano</reg></choice> 
+            nuovi <term type="textual">documenti</term> per ben conoscere quello che si passò nella sua 
+            <term type="theme">coscienza</term> a tal riguardo. 
+            Le <term type="moral">supposizioni</term> stesse che noi facciamo intorno alle 
+            <term type="moral">mentovate opinioni</term>, non si 
+            <choice><orig>denno</orig><reg>devono</reg></choice> scambiare coi suoi reali intendimenti. 
+            Se è un fatto che fu condannato come <term type="theme">anticristiano</term>, 
+            è un fatto egualmente certo che esso protestò contro questa qualificazione»
+          </quote>.
+          Nuova luce potrebbe venire da ignoti <term type="textual">documenti</term> che 
+          <choice><orig>debbon</orig><reg>devono</reg></choice> certo trovarsi nell’
+          <orgName type="institution" ref="#archivioVaticano">Archivio 
+            <placeName ref="#cittadelvaticano">Vaticano</placeName>
+          </orgName>, quali sarebbero le <term type="textual">carte</term> ed i 
+          <term type="textual">libri sequestrati</term> a 
+          <placeName ref="#venezia">Venezia</placeName>, una 
+          <term type="textual">scrittura</term> sulle 
+          <term type="theme">sette arti liberali</term>, ch’
+          <choice><orig>ei</orig><reg>egli</reg></choice> dice aver composta per esporre al 
+          <orgName type="institution" ref="#pontefice">Pontefice</orgName> le sue 
+          <term type="theme">dottrine</term>, e infine quel 
+          <term type="textual">memoriale</term> che l’
+          <orgName type="institution" ref="#inquisizioneRomana">Inquisizione</orgName>, 
+          nei giorni stessi in che pronunziò la 
+          <term type="legal">sentenza di morte</term>, negò che fosse letto.
+          Aggiungasi il <term type="legal">processo</term>, del quale il 
+          <persName ref="#berti">Berti</persName> dà soltanto poche 
+          <term type="textual">notizie</term> tratte dagli 
+          <term type="textual">autografi</term> per opera di un anonimo che li esaminò nel 
+          <date when="1849">1849</date>. 
+          Il <persName ref="#berti">Berti</persName> fa voti che queste 
+          <term type="textual">carte</term> <choice><orig>sieno</orig><reg>siano</reg></choice> 
+          rese di pubblica ragione: è inutile dire che noi a lui ci aggiungiamo in questo 
+          <term type="theme">desiderio</term>.
+        </p>
+
+        <p facs="#zone25">
+          Un facsimile del <term type="textual">codice petropolitano</term> fa conoscere la 
+          <term type="textual">scrittura</term> finora ignota del 
+          <persName ref="#bruno">filosofo nolano</persName>; e se il 
+          <term type="textual">codice</term> è davvero 
+          <term type="textual">autografo</term>, può essere utile a future 
+          <term type="theme">ricerche</term> e <term type="theme">scoperte</term>.
+        </p>
+      </div>
+
+      <div xml:id="questione-operaia-rossi">
+        
+        <head><persName ref="#rossi">Alessandro Rossi</persName>, <title type="work" ref="#rossi1879"><hi rend="italic">Questione operaia e questione sociale</hi></title> – <term type="theme">tema sociale</term>; <term type="textual">saggio popolare</term>. — <placeName ref="#Torino">Torino</placeName>, <orgName type="publisher" ref="#rouxefavale">Roux e Favale</orgName>, <date when="1879">1879</date>.</head>
+
+        <list type="keywords">
+          <item><term>questione operaia</term></item>
+          <item><term>educazione degli operai</term></item>
+          <item><term>conflitto sociale</term></item>
+          <item><term>antagonismo capitale-lavoro</term></item>
+          <item><term>fenomeni sociali</term></item>
+          <item><term>Internazionale</term></item>
+          <item><term>partecipazione al profitto</term></item>
+          <item><term>grande industria</term></item>
+          <item><term>rapporti economici</term></item>
+          <item><term>capitalismo</term></item>
+          <item><term>diritto di proprietà</term></item>
+          <item><term>partecipazione diretta</term></item>
+          <item><term>associazione indiretta</term></item>
+          <item><term>legge del minimo mezzo</term></item>
+          <item><term>saggio popolare</term></item>
+          <item><term>trattazione scientifica</term></item>
+          <item><term>operai italiani</term></item>
+          <item><term>manifattore</term></item>
+          <item><term>imparzialità</term></item>
+          <item><term>ottimismo borghese</term></item>
+        </list>
+
+        <p facs="#zone26">
+          La pubblicazione che presentiamo ai nostri lettori non aspira alla dignità di una 
+          <term type="textual">trattazione scientifica</term> della 
+          <term type="theme">questione operaia</term>, quale ci dette stupendamente nella 
+          <placeName ref="#germania">Germania</placeName> 
+          <persName ref="#lange">Alberto Lange</persName>. 
+          Il lavoro dell’<persName ref="#rossi">on. Rossi</persName> è semplicemente un 
+          <term type="textual">libro popolare</term>, indirizzato all’intento di 
+          <term type="theme">edificare gli <roleName type="social">operai italiani</roleName></term> 
+          sulla necessità di adattarsi ai 
+          <term type="economic">rapporti economici presenti</term> e di aborrire dalle dottrine 
+          dell’<orgName type="institution" ref="#internazionale">Internazionale</orgName>.
+          Nobilissimo <term type="theme">tema</term>, senza alcun dubbio, e soprattutto interessante per un ricco e benefico 
+          <roleName type="social">manifattore</roleName>, ma tema che vorrebbe forse esser trattato con maggior 
+          <term type="moral">imparzialità di vedute</term>. 
+          Tale imparzialità non è, a vero dire, la dote prevalente 
+          dell’<persName ref="#rossi">A.</persName>, il quale, dopo avere scagliato anatemi contro 
+          l’<orgName type="institution" ref="#internazionale">Internazionale</orgName>, 
+          rannodandola con dubbia esattezza alla 
+          <title type="work" ref="#campanella_eguali">Repubblica degli Eguali</title> di 
+          <persName ref="#campanella">Campanella</persName> ed al 
+          <title type="work" ref="#cabet_icaria">Viaggio in Icaria</title> di 
+          <persName ref="#cabet">Gäbet</persName>, 
+          combatte gli <term type="theme">scioperi</term>, combatte le 
+            <foreign xml:lang="en"><hi rend="italic">trades' unions</hi></foreign>, dichiara la 
+          <term type="legal">partecipazione diretta dell’operaio al profitto dell’impresa</term> 
+          incompatibile <choice><orig>colle</orig><reg>con le</reg></choice> esigenze della 
+          <term type="economic">grande industria manifattrice</term>, e conclude riconoscendo la 
+          <term type="legal">associazione indiretta o mista dell’operaio al profitto</term>, 
+          nelle varie sue forme, come il solo mezzo che valga ad acquetare l’acerbo 
+          <term type="theme">conflitto fra i partecipi della produzione</term>.
+          — Lasciamo all’<term type="theme">ottimismo dell’A.</term> la fede che l’omeopatica istituzione di 
+          <orgName type="institution" ref="#CasseRisparmio">Casse di risparmio</orgName> per la vecchiaia, o di 
+          <term type="legal">premi agli operai più onesti e previdenti</term>, o qualche altro espediente di simil fatta, 
+          bastino, come assevera l’<persName ref="#rossi">A.</persName>, 
+          <quote>«a spegnere ogni ombra di <term type="theme">antagonismo fra gli interessi del capitale e quelli del lavoro</term>»</quote> 
+          (p. 159). A noi la pretesa di risolvere con sì picciolo 
+          <choice><orig>stromento</orig><reg>strumento</reg></choice> la 
+          <term type="theme">questione operaia</term> sembra una ben poco seria applicazione della 
+          <term type="legal">legge del minimo mezzo</term>.
+          Ma comunque, non ammettiamo che si giunga a quella conclusione per asserzioni troppo scarsamente fondate. 
+            La lettura dello <title type="work" ref="#brentano_arbeitergilden"><hi rend="italic">Arbeitergilden</hi></title> del 
+          <persName ref="#brentano">Brentano</persName>, ad es., avrebbe tolto all’<persName ref="#rossi">A.</persName> 
+          di asserire che le <term type="theme">associazioni di resistenza inglesi</term> sono affiliate dell’ 
+          <orgName type="institution" ref="#internazionale">Internazionale</orgName>; la conoscenza della 
+            <foreign xml:lang="en"><hi rend="italic">trades' unions</hi></foreign> e de’ loro, benché rari, trionfi, lo avrebbe dissuaso dal dichiarare che desse non riuscirono mai nei loro 
+          <term type="theme">sofistici intenti</term>. 
+          Lo studio dei pregevoli scritti del <persName ref="#brentano">Brentano</persName>, del 
+          <persName ref="#manfredi">Manfredi</persName> e di qualche altro sulla 
+          <term type="economic">partecipazione al profitto</term> lo avrebbe reso più cauto nel rigettare recisamente quella forma di 
+          <term type="economic">economia industriale</term>. 
+          Infine lo studio dei <term type="theme">fenomeni sociali</term> condotto sotto un punto di vista non esclusivamente 
+          <term type="economic">capitalistico</term>, lo avrebbe trattenuto dal mettere innanzi teorie troppo 
+          <term type="legal">quiritarie circa il diritto di proprietà</term>.
+        </p>
+
+        <p facs="#zone27">
+          Questi ed altri <term type="theme">appunti</term>, a cui la <term type="theme">critica severa</term> 
+          non può sottrarre il lavoro dell’<persName ref="#rossi">on. Rossi</persName>, 
+          non debbono trattenerci
+        </p>
+
+        <p facs="#zone28">
+          Questi ed altri <term type="theme">appunti</term>, a cui la <term type="theme">critica severa</term> 
+          non può sottrarre il lavoro dell’<persName ref="#rossi">on. Rossi</persName>, 
+          non debbono trattenerci dall’affermare che questa 
+          <term type="textual">monografia</term>, scritta in <term type="textual">stile popolare</term> e ricca di 
+          <term type="textual">nozioni</term> e di <term type="textual">fatti interessantissimi</term>, 
+          benché tutti riferiti di <term type="textual">seconda mane</term>, sulle varie forme della 
+          <term type="economic">partecipazione</term>, potrà leggersi con <term type="moral">profitto</term> e 
+          <term type="moral">diletto</term> non solo dagli <roleName type="social">operai</roleName>, 
+          ma da quanti amino istruirsi circa lo stato della 
+          <term type="theme">questione operaia</term> in <placeName ref="#Italia">Italia</placeName> ed all’estero.
+        </p>
+      </div>
+
+      <div xml:id="notizia-rhs">
+
+        <list type="keywords">
+          <item><term>storia</term></item>
+          <item><term>poesia</term></item>
+          <item><term>idealismo</term></item>
+          <item><term>realismo</term></item>
+          <item><term>poeti laureati</term></item>
+        </list>
+
+        <p facs="#zone29">
+            — Il vol. VIII dello <title type="journal"><foreign xml:lang="en"><hi rend="italic">Transactions of the Royal Historical Society</hi></foreign></title> di
+          <placeName ref="#Inghilterra">Londra</placeName>, edito in questi giorni a cura del rev. 
+          <persName ref="#charlesRogers">Charles Rogers</persName>, <roleName type="role">segretario</roleName> e <roleName type="role">storiografo</roleName> della 
+          <term type="social">società</term>, contiene 16 memorie di diversi autori, riguardanti principalmente la 
+          <term type="theme">storia</term> 
+          di <placeName ref="#Inghilterra">Inghilterra</placeName> 
+          <term type="temporal">medioevale</term> e <term type="temporal">moderna</term>. 
+          Ma può interessare anche i lettori italiani l’articolo di 
+          <persName ref="#hamilton">W. Hamilton</persName> sui 
+          <roleName type="role">poeti laureati</roleName>, nella prima parte del quale si parla dei poeti italiani laureati dal 
+          <persName ref="#petrarca">Petrarca</persName> sino a 
+          <persName ref="#giovanniPrati">Gio. Prati</persName>, che impariamo qui essere 
+          <quote>«il presente poeta laureato della Casa reale d’<placeName ref="#Italia">Italia</placeName>!»</quote> 
+          Degli altri lavori ci paro utile di notare, per la curiosità dell’argomento, l’articolo di 
+          <persName ref="#harris">G. Harris</persName> sulla 
+          <term type="social">vita privata</term> in 
+          <placeName ref="#Inghilterra">Inghilterra</placeName> <date from="1201" to="1600">dal secolo XIII al XVI</date>; o per l’interesse generale, la 
+          <term type="theme">storia dell’incivilimento cristiano</term> dalla 
+          <term type="historical">caduta dell’<orgName type="institution" ref="#imperoOccidente">Impero d’Occidente</orgName></term> ai tempi di 
+          <persName ref="#carlomagno">Carlomagno</persName>, di 
+          <persName ref="#trons">W. I. Trons</persName>; e uno studio di 
+          <persName ref="#zerffi">G. G. Zerffi</persName> sullo 
+          sviluppo storico dell’<term type="literaryMovement" ref="#idealismo">idealismo</term> o del 
+          <term type="literaryMovement" ref="#realismo">realismo</term> nell’<term type="temporal">epoca moderna</term> 
+          (<persName ref="#descartes">Descartes</persName>, 
+          <persName ref="#spinoza">Spinoza</persName>, 
+          <persName ref="#locke">Locke</persName>).
+        </p>
+      </div>
+
+      <div xml:id="notizia-nature-waldhauer">
+
+        <list type="keywords">
+          <item><term>etnografia</term></item>
+          <item><term>minoranze</term></item>
+          <item><term>pescatori</term></item>
+          <item><term>Estoni</term></item>
+          <item><term>Letti</term></item>
+        </list>
+
+        <p facs="#zone30">
+          — Il prof. <persName ref="#waldhauer">Waldhauer</persName> di <placeName ref="#dorpat">Dorpat</placeName> ha visitato 
+          <choice><sic><damage type="smudge">nello</damage></sic><corr>nelle</corr></choice> vicinanze dei confini settentrionali della 
+          <placeName ref="#curlandia">Curlandia</placeName> <choice><sic>collo</sic><corr>con lo</corr></choice> scopo di studiare la condizione dei resti di un popolo 
+          <choice><sic>vivento</sic><corr>vivente</corr></choice> in quelle parti, che è il solo rappresentante delle antiche razze della 
+          <placeName ref="#curlandia">Curlandia</placeName> e della <placeName ref="#livonia">Livonia</placeName>. 
+          Sono 2400 <term type="social">anime</term> che occupano un distretto fra 
+          <placeName ref="#mellesilla">Mellesilla</placeName> e <placeName ref="#lyserort">Lyserort</placeName> e sono separate dai 
+          <name type=" national">Letti</name> dell’interno per un tratto di paludi. 
+          Hanno molto <term type="national">orgoglio nazionale</term> o rinnegano la loro affinità cogli 
+          <name type="national">Estoni</name>. 
+          Si chiamano <foreign xml:lang="lv">«randalist»</foreign> (<roleName type="occupation">abitanti delle coste del mare</roleName>) o 
+          <foreign xml:lang="lv">«kalamied»</foreign> (<roleName type="occupation">pescatori</roleName>). 
+          Sono buoni <roleName type="role">marinai</roleName> e <roleName type="role">piloti</roleName>. 
+          Parecchie famiglie stanno insieme in una lunga casaccia; 
+          e i loro villaggi rassomigliano a quelli degli <name type=" national">Estoni</name>. 
+          Hanno capelli bruni o marrone. 
+          Il <persName ref="#waldhauer"> Waldhauer </persName> non ha visto fra loro nessuna barba rossa. 
+          (<title type="journal">Nature</title>)
+        </p>
+      </div>
+    </body>
+  </text>
+  <standOff>
+    <listPlace>
+      <place xml:id="Torino">
+        <placeName>Torino</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Piemonte</region>
+        </location>
+      </place>
+      <place xml:id="Biella">
+        <placeName>Biella</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Piemonte</region>
+        </location>
+      </place>
+      <place xml:id="Inghilterra">
+        <placeName>Inghilterra</placeName>
+        <location>
+          <country key="GB">Regno Unito</country>
+        </location>
+      </place>
+      <place xml:id="Francia">
+        <placeName>Francia</placeName>
+        <location>
+          <country key="FR">Francia</country>
+        </location>
+      </place>
+      <place xml:id="Italia">
+        <placeName>Italia</placeName>
+        <location>
+          <country key="IT">Italia</country>
+        </location>
+      </place>
+      <place xml:id="Ancona">
+        <placeName>Ancona</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Marche</region>
+        </location>
+      </place>
+      <place xml:id="Casale">
+        <placeName>Casale</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Piemonte</region>
+        </location>
+      </place>
+      <place xml:id="Firenze">
+        <placeName>Firenze</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Toscana</region>
+        </location>
+      </place>
+      <place xml:id="Sicilia">
+        <placeName>Sicilia</placeName>
+        <location>
+          <country key="IT">Italia</country>
+        </location>
+      </place>
+      <place xml:id="provincieRegno">
+        <placeName>provincie del regno</placeName>
+          <location>
+          <country key="IT">Italia</country>
+        </location>
+        <note>Denominazione generica delle province appartenenti al Regno d’Italia nel contesto ottocentesco.</note>
+      </place>
+      <place xml:id="durino">
+        <placeName>Durino</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Piemonte</region>
+          <note>Il toponimo "Durino" è una variante popolare o scherzosa per "Torino"</note>
+        </location>
+      </place>
+      <place xml:id="milano">
+        <placeName>Milano</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Lombardia</region>
+        </location>
+        <note>Luogo di pubblicazione del romanzo "Giacinta" di Luigi Capuana (Brigola, 1879)</note>
+      </place>
+      <place xml:id="roma">
+        <placeName>Roma</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Lazio</region>
+        </location>
+        <note>Luogo della condanna e dell'esecuzione di Giordano Bruno, oltre che sede dell'Inquisizione e dell'Archivio Vaticano.</note>
+      </place>
+      <place xml:id="venezia">
+        <placeName>Venezia</placeName>
+        <location>
+          <country key="IT">Italia</country>
+          <region>Veneto</region>
+        </location>
+        <note>Luogo dell'arresto e dell'inizio del processo contro Giordano Bruno.</note>
+      </place>
+      <place xml:id="ginevra">
+        <placeName>Ginevra</placeName>
+        <location>
+          <country key="CH">Svizzera</country>
+        </location>
+        <note>Una delle tappe dell’esilio europeo di Giordano Bruno.</note>
+      </place>
+      <place xml:id="pietroburgo">
+        <placeName>Pietroburgo</placeName>
+        <location>
+          <country key="RU">Russia</country>
+        </location>
+        <note>Luogo di conservazione del codice petropolitano, posseduto da De Noroff.</note>
+      </place>
+      <place xml:id="cittadelvaticano">
+        <placeName>Città del Vaticano</placeName>
+        <location>
+          <country key="VA">Città del Vaticano</country>
+        </location>
+        <note>Residenza del Pontefice e sede dell’Archivio Vaticano.</note>
+      </place>
+      <place xml:id="germania">
+        <placeName>Germania</placeName>
+        <location>
+          <country key="DE">Germania</country>
+        </location>
+      </place>
+      <place xml:id="dorpat">
+        <placeName>Dorpat</placeName>
+        <location>
+          <country key="EE">Estonia</country>
+          <note>Nome storico tedesco dell’attuale Tartu, in Estonia.</note>
+        </location>
+      </place>
+      <place xml:id="curlandia">
+        <placeName>Curlandia</placeName>
+        <location>
+          <country key="LV">Lettonia</country>
+          <note>Regione storica della Lettonia occidentale, oggi parte della regione di Kurzeme.</note>
+        </location>
+      </place>
+      <place xml:id="livonia">
+        <placeName>Livonia</placeName>
+        <location>
+          <country key="EE">Estonia</country>
+          <country key="LV">Lettonia</country>
+          <note>Regione storica oggi divisa tra Estonia meridionale e Lettonia settentrionale.</note>
+        </location>
+      </place>
+      <place xml:id="domosnaes">
+        <placeName>Domosnaes</placeName>
+        <location>
+          <country key="LV">Lettonia</country>
+          <note>Località litoranea menzionata in fonti ottocentesche, situata nel Golfo di Riga.</note>
+        </location>
+      </place>
+      <place xml:id="mellesilla">
+        <placeName>Mellesilla</placeName>
+        <location>
+          <country key="LV">Lettonia</country>
+          <note>Località costiera o distretto citato nella descrizione etnografica della Curlandia.</note>
+        </location>
+      </place>
+      <place xml:id="lyserort">
+        <placeName>Lyserort</placeName>
+        <location>
+          <country key="LV">Lettonia</country>
+          <note>Piccola località litoranea, probabilmente nei pressi del Golfo di Riga.</note>
+        </location>
+      </place>
+      <place xml:id="golfodiriga">
+        <placeName type="natural">Golfo di Riga</placeName>
+        <location>
+          <country key="LV">Lettonia</country>
+          <note>Insinuazione del Mar Baltico tra Lettonia ed Estonia.</note>
+        </location>
+      </place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="Governo">
+        <orgName type="institution">Governo</orgName>
+        <orgName type="alt">Governo italiano</orgName>
+        <desc>Autorità esecutiva dello Stato italiano.</desc>
+      </org>
+      <org xml:id="CommissioneScioperi">
+        <orgName type="institution">Commissione d’inchiesta sugli scioperi</orgName>
+        <orgName type="alt">Commissione parlamentare sugli scioperi</orgName>
+        <desc>Commissione parlamentare incaricata di studiare il fenomeno degli scioperi e le sue cause sociali.</desc>
+      </org>
+      <org xml:id="CasseRisparmio">
+        <orgName type="institution">Casse di Risparmio</orgName>
+        <desc>Istituzioni bancarie nate per favorire il risparmio e l’educazione finanziaria dei lavoratori.</desc>
+      </org>
+      <org xml:id="Ministeri">
+        <orgName type="institution">Ministeri</orgName>
+        <desc>Dipartimenti esecutivi centrali del Governo italiano responsabili di aree specifiche dell’amministrazione pubblica.</desc>
+      </org>
+      <org xml:id="Questure">
+        <orgName type="institution">Questure</orgName>
+        <desc>Uffici territoriali della polizia di Stato, responsabili della sicurezza e dell’ordine pubblico.</desc>
+      </org>
+      <org xml:id="Prefetti">
+        <orgName type="authority">Prefetti</orgName>
+        <desc>Funzionari dello Stato responsabili dell’amministrazione provinciale e dell’ordine pubblico.</desc>
+      </org>
+      <org xml:id="Questori">
+        <orgName type="authority">Questori</orgName>
+        <desc>Autorità di pubblica sicurezza a livello provinciale.</desc>
+      </org>
+      <org xml:id="Parlamento">
+        <orgName type="institution">Parlamento</orgName>
+        <desc>Assemblea legislativa dello Stato italiano, composta da Camera dei Deputati e Senato.</desc>
+      </org>
+      <org xml:id="Senato">
+        <orgName type="institution">Senato</orgName>
+        <desc>Ramo alto del Parlamento del Regno d’Italia.</desc>
+      </org>
+      <org xml:id="Camera">
+        <orgName type="institution">Camera dei Deputati</orgName>
+        <desc>Ramo basso del Parlamento del Regno d’Italia.</desc>
+      </org>
+      <org xml:id="GiuntaInchiestaAgraria">
+        <orgName type="institution">Giunta per l'inchiesta agraria</orgName>
+        <desc>Commissione parlamentare incaricata di indagare sulle condizioni dell’agricoltura e dei contadini.</desc>
+      </org>
+      <org xml:id="AssociazioneProgressiEconomici">
+        <orgName type="institution">Associazione per il progresso degli studi economici</orgName>
+        <desc>Associazione culturale e scientifica dedicata allo studio e alla promozione delle scienze economiche in Italia.</desc>
+      </org>
+      <org xml:id="CongressoEconomisti">
+        <orgName type="institution">Congresso degli economisti</orgName>
+        <desc>Congresso nazionale di studiosi ed esperti di economia in Italia.</desc>
+      </org>
+      <org xml:id="CommissioneEmigrazione">
+        <orgName type="institution">Commissione governativa per l'emigrazione</orgName>
+        <desc>Commissione incaricata dal governo di studiare e proporre soluzioni ai problemi legati al fenomeno migratorio.</desc>
+      </org>
+      <org xml:id="CasseRisparmioDurino">
+        <orgName type="institution">Cassa di risparmio del Durino</orgName>
+        <desc>Istituto bancario italiano, menzionato nel contesto delle crisi delle casse di risparmio.</desc>
+      </org>
+      <org xml:id="Comuni">
+        <orgName type="institution">Comuni</orgName>
+        <desc>Enti amministrativi territoriali di base del Regno d’Italia, competenti anche nella fondazione di casse di risparmio.</desc>
+      </org>
+      <org xml:id="IstitutiBenefici">
+        <orgName type="institution">Istituti benefici</orgName>
+        <desc>Istituzioni di beneficenza che partecipano alla fondazione di casse di risparmio e altre iniziative sociali.</desc>
+      </org>
+      <org xml:id="MinisteroCommercio">
+        <orgName type="institution">Ministero del Commercio</orgName>
+        <desc>Dicastero governativo italiano preposto al commercio e all’economia.</desc>
+      </org>
+      <org xml:id="SocietaMutuoSoccorso">
+        <orgName type="institution">Società di mutuo soccorso</orgName>
+        <desc>Associazioni cooperative nate per offrire sostegno economico e sanitario ai lavoratori in difficoltà.</desc>
+      </org>
+      <org xml:id="BanchePopolari">
+        <orgName type="institution">Banche popolari</orgName>
+        <desc>Istituti di credito cooperativo a sostegno dei piccoli risparmiatori e delle classi lavoratrici.</desc>
+      </org>
+      <org xml:id="SocietaCooperative">
+        <orgName type="institution">Società cooperative</orgName>
+        <desc>Organizzazioni associative nate per promuovere l’autogestione economica tra i soci lavoratori o consumatori.</desc>
+      </org>
+      <org xml:id="SocietaAnonime">
+        <orgName type="institution">Società anonime</orgName>
+        <desc>Forme societarie disciplinate dal codice di commercio italiano del 1865.</desc>
+      </org>
+      <org xml:id="brigola">
+        <orgName type="publisher">Brigola</orgName>
+        <desc>Casa editrice di Milano, editore del romanzo "Giacinta" di Luigi Capuana (1879).</desc>
+      </org>
+      <org xml:id="salviucci">
+        <orgName type="publisher">Salviucci</orgName>
+        <desc>Casa editrice di Roma, pubblicò nel 1880 i <title>Documenti intorno a Giordano Bruno da Nola</title> di Domenico Berti.</desc>
+      </org>
+      <org xml:id="rassegna">
+        <orgName type="journal">Rassegna</orgName>
+        <orgName type="alt">La Rassegna settimanale</orgName>
+        <desc>Periodico ottocentesco italiano in cui comparvero articoli e recensioni di carattere politico e culturale.</desc>
+      </org>
+      <org xml:id="signoriaVeneta">
+        <orgName type="institution">Signoria veneta</orgName>
+        <desc>Massimo organo di governo della Repubblica di Venezia, competente in materia di giustizia e affari esteri.</desc>
+      </org>
+      <org xml:id="inquisizioneRomana">
+        <orgName type="institution">Inquisizione romana</orgName>
+        <orgName type="alt">Sant'Uffizio</orgName>
+        <desc>Tribunale ecclesiastico incaricato della repressione dell'eresia e della difesa dell'ortodossia cattolica.</desc>
+      </org>
+      <org xml:id="archivioVaticano">
+        <orgName type="institution">Archivio Vaticano</orgName>
+        <orgName type="alt">Archivio Segreto Vaticano</orgName>
+        <desc>Archivio storico della Santa Sede, custode di documenti fondamentali per la storia della Chiesa.</desc>
+      </org>
+      <org xml:id="pontefice">
+        <orgName type="institution">Pontefice</orgName>
+        <orgName type="alt">Papa</orgName>
+        <desc>Massima autorità religiosa della Chiesa cattolica, menzionata come destinatario di uno scritto dottrinale di Bruno.</desc>
+      </org>
+      <org xml:id="internazionale">
+        <orgName type="institution">Internazionale</orgName>
+        <orgName type="alt">Associazione Internazionale dei Lavoratori</orgName>
+        <desc>Movimento socialista e operaio fondato nel 1864, noto per la sua influenza sulle organizzazioni dei lavoratori europei.</desc>
+      </org>
+      <org xml:id="rouxefavale">
+        <orgName type="publisher">Roux e Favale</orgName>
+        <desc>Casa editrice di Torino, attiva nel XIX secolo, editrice dell’opera <title>Questione operaia e questione sociale</title> di Alessandro Rossi (1879).</desc>
+      </org>
+      <org xml:id="imperoOccidente">
+        <orgName type="institution">Impero d’Occidente</orgName>
+        <desc>Parte occidentale dell’Impero romano, formalmente terminata nel 476 d.C. con la deposizione di Romolo Augustolo.</desc>
+      </org>
+    </listOrg>
+    <listPerson>
+      <person xml:id="Depretis">
+        <persName>Agostino Depretis</persName>
+        <sex value="M"/>
+        <occupation>Presidente del Consiglio</occupation>
+      </person>
+      <person xml:id="Nicotera">
+        <persName>Giovanni Nicotera</persName>
+        <sex value="M"/>
+        <occupation>Ministro dell’Interno</occupation>
+      </person>
+      <person xml:id="Finali">
+        <persName>Finali</persName>
+        <sex value="M"/>
+        <occupation>Ministro</occupation>
+      </person>
+      <person xml:id="Minghetti">
+        <persName>Marco Minghetti</persName>
+        <sex value="M"/>
+        <occupation>Deputato, economista</occupation>
+      </person>
+      <person xml:id="Luzzatti">
+        <persName>Luigi Luzzatti</persName>
+        <sex value="M"/>
+        <occupation>Economista, politico</occupation>
+      </person>
+      <person xml:id="DelGiudice">
+        <persName>Del Giudice</persName>
+        <sex value="M"/>
+        <occupation>Deputato</occupation>
+      </person>
+      <person xml:id="Cairoli">
+        <persName>Benedetto Cairoli</persName>
+        <sex value="M"/>
+        <occupation>Presidente del Consiglio</occupation>
+      </person>
+      <person xml:id="capuana">
+        <persName>Luigi Capuana</persName>
+        <sex value="M"/>
+        <occupation>Scrittore, critico letterario, esponente del Verismo italiano</occupation>
+        <note>Autore del romanzo "Giacinta" recensito nell'articolo</note>
+      </person>
+      <person xml:id="giacinta">
+        <persName>Giacinta</persName>
+        <sex value="F"/>
+        <note>Protagonista dell'omonimo romanzo di Capuana</note>
+      </person>
+      <person xml:id="andrea">
+        <persName>Andrea</persName>
+        <sex value="M"/>
+        <note>Amante di Giacinta nel romanzo</note>
+      </person>
+      <person xml:id="fullini">
+        <persName>Dottor Fullini</persName>
+        <sex value="M"/>
+        <note>Personaggio secondario nel romanzo "Giacinta"</note>
+      </person>
+      <person xml:id="zola">
+        <persName>Émile Zola</persName>
+        <sex value="M"/>
+        <occupation>Scrittore francese</occupation>
+        <note>Citato come modello di riferimento per il Naturalismo</note>
+      </person>
+      <person xml:id="berti">
+        <persName>Domenico Berti</persName>
+        <sex value="M"/>
+        <occupation>Storico, politico italiano</occupation>
+        <note>Autore dei <title>Documenti intorno a Giordano Bruno da Nola</title></note>
+      </person>
+      <person xml:id="bruno">
+        <persName>Giordano Bruno</persName>
+        <sex value="M"/>
+        <occupation>Filosofo, scrittore, frate domenicano</occupation>
+        <note>Condannato al rogo dall'Inquisizione nel 1600</note>
+      </person>
+      <person xml:id="pico">
+        <persName>Giovanni Pico della Mirandola</persName>
+        <sex value="M"/>
+        <occupation>Filosofo umanista</occupation>
+      </person>
+      <person xml:id="galileo">
+        <persName>Galileo Galilei</persName>
+        <sex value="M"/>
+        <occupation>Fisico, astronomo e filosofo</occupation>
+      </person>
+      <person xml:id="cremonino">
+        <persName>Cesare Cremonini</persName>
+        <sex value="M"/>
+        <occupation>Filosofo aristotelico</occupation>
+      </person>
+      <person xml:id="campanella">
+        <persName>Tommaso Campanella</persName>
+        <sex value="M"/>
+        <occupation>Filosofo e teologo</occupation>
+      </person>
+      <person xml:id="bartholmess">
+        <persName>Christian Bartholmèss</persName>
+        <sex value="M"/>
+        <occupation>Storico e filosofo francese</occupation>
+        <note>Autore di una precedente biografia su Giordano Bruno</note>
+      </person>
+      <person xml:id="mocenigo">
+        <persName>Giovanni Mocenigo</persName>
+        <sex value="M"/>
+        <occupation>Nobile veneziano</occupation>
+        <note>Denunciò Giordano Bruno all’Inquisizione</note>
+      </person>
+      <person xml:id="noroff">
+        <persName>De Noroff</persName>
+        <sex value="M"/>
+        <occupation>Collezionista</occupation>
+        <note>Possessore del codice petropolitano, residente a Pietroburgo</note>
+      </person>
+      <person xml:id="anonimo1849">
+        <persName>Anonimo (1849)</persName>
+        <sex value="M"/>
+        <occupation>Studioso</occupation>
+        <note>Esaminò gli autografi del processo a Bruno</note>
+      </person>
+      <person xml:id="charlesRogers">
+        <persName>Charles Rogers</persName>
+        <sex value="M"/>
+        <occupation>Storico, storiografo della Royal Historical Society</occupation>
+      </person>
+      <person xml:id="hamilton">
+        <persName>W. Hamilton</persName>
+        <sex value="M"/>
+        <occupation>Scrittore, autore di un articolo sui poeti laureati</occupation>
+      </person>
+      <person xml:id="petrarca">
+        <persName>Francesco Petrarca</persName>
+        <sex value="M"/>
+        <occupation>Poeta, umanista</occupation>
+        <note>Considerato uno dei primi poeti laureati italiani</note>
+      </person>
+      <person xml:id="giovanniPrati">
+        <persName>Giovanni Prati</persName>
+        <sex value="M"/>
+        <occupation>Poeta</occupation>
+        <note>Poeta laureato della Casa reale d’Italia nel XIX secolo</note>
+      </person>
+      <person xml:id="harris">
+        <persName>G. Harris</persName>
+        <sex value="M"/>
+        <occupation>Storico</occupation>
+        <note>Autore di uno studio sulla vita privata in Inghilterra</note>
+      </person>
+      <person xml:id="trons">
+        <persName>W. I. Trons</persName>
+        <sex value="M"/>
+        <occupation>Storico</occupation>
+        <note>Autore di uno studio sull'incivilimento cristiano</note>
+      </person>
+      <person xml:id="zerffi">
+        <persName>G. G. Zerffi</persName>
+        <sex value="M"/>
+        <occupation>Storico della filosofia</occupation>
+        <note>Autore di uno studio sull’idealismo e realismo moderni</note>
+      </person>
+      <person xml:id="carlomagno">
+        <persName>Carlomagno</persName>
+        <sex value="M"/>
+        <occupation>Imperatore</occupation>
+        <note>Re dei Franchi e Imperatore del Sacro Romano Impero</note>
+      </person>
+      <person xml:id="descartes">
+        <persName>René Descartes</persName>
+        <sex value="M"/>
+        <occupation>Filosofo, matematico</occupation>
+      </person>
+      <person xml:id="spinoza">
+        <persName>Baruch Spinoza</persName>
+        <sex value="M"/>
+        <occupation>Filosofo</occupation>
+      </person>
+      <person xml:id="locke">
+        <persName>John Locke</persName>
+        <sex value="M"/>
+        <occupation>Filosofo</occupation>
+      </person>
+      <person xml:id="waldhauer">
+        <persName>Waldhauer</persName>
+        <sex value="M"/>
+        <occupation>Professore, etnografo</occupation>
+        <note>Studioso che visitò la Curlandia settentrionale per esaminare un gruppo etnico costiero, secondo una nota della rivista Nature.</note>
+      </person>
+    </listPerson>
+    <listBibl>
+      <bibl xml:id="bibl-giacinta">
+        <author>Luigi Capuana</author>
+        <title>Giacinta</title>
+        <pubPlace>Milano</pubPlace>
+        <publisher>Brigola</publisher>
+        <date>1879</date>
+      </bibl>
+      <bibl xml:id="docBruno">
+        <author ref="#berti">Domenico Berti</author>
+        <title>Documenti intorno a Giordano Bruno da Nola</title>
+        <pubPlace>Roma</pubPlace>
+        <publisher ref="#salviucci">Salviucci</publisher>
+        <date when="1880">1880</date>
+      </bibl>
+      <bibl xml:id="vitaBruno">
+        <author ref="#berti">Domenico Berti</author>
+        <title>Vita di Giordano Bruno</title>
+        <note>Opera precedente dello stesso autore, citata nel testo come confronto con quella di Bartholmèss.</note>
+      </bibl>
+      <bibl xml:id="rassegna1880">
+        <title>Rassegna</title>
+        <biblScope unit="volume">II</biblScope>
+        <biblScope unit="page">83</biblScope>
+        <date when="1880">1880</date>
+        <note>Articolo precedente della stessa rivista in cui si parlava del lavoro di Berti.</note>
+      </bibl>
+      <bibl xml:id="rossi1879">
+        <author ref="#rossi">Alessandro Rossi</author>
+        <title>Questione operaia e questione sociale</title>
+        <pubPlace>Torino</pubPlace>
+        <publisher ref="#rouxefavale">Roux e Favale</publisher>
+        <date when="1879">1879</date>
+      </bibl>
+      <bibl xml:id="cabet_icaria">
+        <author ref="#cabet">Étienne Cabet</author>
+        <title>Viaggio in Icaria</title>
+        <note>Opera citata in polemica da Alessandro Rossi come esempio di socialismo utopico.</note>
+      </bibl>
+      <bibl xml:id="campanella_eguali">
+        <author ref="#campanella">Tommaso Campanella</author>
+        <title>Repubblica degli Eguali</title>
+        <note>Opera associata da Rossi alle idee dell’Internazionale.</note>
+      </bibl>
+      <bibl xml:id="brentano_arbeitergilden">
+        <author ref="#brentano">Lujo Brentano</author>
+        <title>Arbeitergilden</title>
+        <note>Opera citata come riferimento per l’analisi delle associazioni operaie inglesi.</note>
+      </bibl>
+      <bibl xml:id="transactionsRHS">
+        <title>Transactions of the Royal Historical Society</title>
+        <title type="journal">Transactions of the Royal Historical Society</title>
+        <orgName type="journal">Royal Historical Society</orgName>
+        <pubPlace>Londra</pubPlace>
+        <note>Rivista accademica inglese contenente articoli di storia medioevale e moderna, pubblicata a cura del rev. Charles Rogers.</note>
+      </bibl>
+      <bibl xml:id="nature">
+        <title type="journal">Nature</title>
+        <orgName type="journal">Nature Publishing Group</orgName>
+        <pubPlace>Londra</pubPlace>
+        <note>Rivista scientifica britannica citata come fonte della notizia sul viaggio del prof. Waldhauer in Curlandia.</note>
+      </bibl>
+    </listBibl>
+    <list xml:id="listMovimentiLetterari">
+      <item xml:id="naturalismo">
+        <term type="literaryMovement">Naturalismo</term>
+        <desc>Movimento letterario nato in Francia nella seconda metà del XIX secolo, caratterizzato da un approccio scientifico e deterministico alla rappresentazione della realtà.</desc>
+        <note>Capuana e Verga sono i principali rappresentanti italiani; ispirato in parte all’opera di Émile Zola.</note>
+      </item>
+      <item xml:id="idealismo">
+        <term type="literaryMovement">Idealismo</term>
+        <desc>Corrente filosofica moderna che pone l’idea come fondamento della realtà, sviluppatasi con filosofi come Descartes, Spinoza e successivamente Kant e Hegel.</desc>
+        <note>Nel testo è trattata come prospettiva filosofica moderna, in contrasto con il realismo.</note>
+      </item>
+      <item xml:id="realismo">
+        <term type="literaryMovement">Realismo</term>
+        <desc>Movimento filosofico e letterario che pone l’accento sulla realtà sensibile e sull’osservazione empirica come base della conoscenza.</desc>
+        <note>Citato nel testo in relazione all’evoluzione del pensiero moderno (Locke, ecc.). Da non confondere con il Naturalismo letterario.</note>
+      </item>
+    </list>
+  </standOff>
+</TEI>

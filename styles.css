@@ -1,0 +1,507 @@
+/* ===================================================
+   BASE STYLES
+================================================== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #333;
+  background-color: #fafafa;
+}
+
+h1, h2, h3, h4 {
+  color: #222;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+/* ===================================================
+   SECTIONS
+================================================== */
+#buttons {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+#buttons button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+#buttons button:hover {
+  background-color: #dddddd;
+}
+
+#facsimile .facsimile-item {
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* ===================================================
+   KEYWORDS
+================================================== */
+.keywords {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9ff;
+}
+.keyword-item {
+  margin: 0.25rem 0;
+}
+.keyword {
+  font-style: italic;
+  color: #555;
+}
+
+/* ===================================================
+   STANDOFF
+================================================== */
+.standoff {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.standoff h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.standoff-section {
+  margin-bottom: 1.5rem;
+}
+.standoff-section h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .25rem;
+}
+.standoff li {
+  padding: .25rem 0;
+}
+.person-name,
+.place-name,
+.bibl-title {
+  font-weight: bold;
+}
+.note {
+  color: #555;
+  font-style: italic;
+}
+.bibl-author,
+.bibl-place,
+.bibl-date {
+  font-size: .9rem;
+  color: #333;
+}
+
+/* ===================================================
+   TEI ARTICLES
+================================================== */
+.tei-article {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #fafafa;
+}
+.tei-article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #888;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+}
+.tei-article-content {
+  font-size: 1rem;
+}
+
+/* ===================================================
+   TEI HEADER CENTRALIZZATI E ISOLATI
+================================================== */
+.teiHeader,
+.teiHeader-metadata,
+.teiHeader-bibliography,
+.teiHeader-project,
+.teiHeader-languages {
+  max-width: 80%;           
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+}
+.teiHeader h2,
+.teiHeader h3,
+.teiHeader h4 {
+  font-weight: bold;
+}
+.teiHeader .title {
+  font-size: 1.8rem;
+}
+.teiHeader .author {
+  font-size: 1.1rem;
+}
+.teiHeader .respStmt {
+  margin: .25rem 0;
+}
+.teiHeader .note-item,
+.teiHeader .bibl-item {
+  margin: .25rem 0;
+}
+.teiHeader .bibl-scope span {
+  display: block;
+}
+.teiHeader a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.teiHeader a:hover {
+  text-decoration: underline;
+}
+
+.teiHeader-metadata section {
+  margin-bottom: 20px;
+}
+.teiHeader-metadata h3 {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.teiHeader-metadata p,
+.teiHeader-metadata .respStmt,
+.teiHeader-metadata .note-item {
+  text-align: justify;
+}
+
+.teiHeader-bibliography {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+}
+.teiHeader-bibliography h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.teiHeader-bibliography .bibl-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.teiHeader-bibliography .bibl-item {
+  flex: 1 1 30%;
+  max-width: 30%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+.teiHeader-bibliography .bibl-item strong {
+  font-size: 1.1rem;
+}
+.teiHeader-bibliography .bibl-item span,
+.teiHeader-bibliography .bibl-scope,
+.teiHeader-bibliography .bibl-note {
+  display: block;
+}
+
+.teiHeader-project h3 {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.teiHeader-project h4 {
+  font-size: 1.1rem;
+  margin: 15px 0 5px;
+}
+.teiHeader-project p {
+  text-align: justify;
+}
+
+.teiHeader-languages h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+.teiHeader-languages ul {
+  list-style: none;
+  padding: 0;
+}
+.teiHeader-languages li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+.teiHeader-languages .lang {
+  font-size: 1rem;
+}
+
+/* Disposizione dei contenuti StandOff in griglia 2x2 */
+.standoff-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.standoff-grid-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,.1);
+}
+.standoff-grid-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+/* Movimenti Letterari nello StandOff */
+.standoff-grid-item .movement-item {
+  padding: 0.25rem 0;
+}
+.standoff-grid-item .movement-name {
+  font-weight: bold;
+}
+.standoff-grid-item .movement-desc {
+  font-style: italic;
+}
+.standoff-grid-item .movement-note {
+  color: #555;
+}
+
+/* ===================================================
+   SEZIONE FACS
+================================================== */
+.facsimile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.facsimile-item {
+  flex: 1 1 22%; 
+  max-width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  transition: box-shadow 0.3s;
+}
+.facsimile-item:hover {
+  box-shadow: 0px 4px 12px rgba(0,0,0,.1);
+}
+.facsimile-item img {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+.facsimile-item figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+#lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+#lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255,255,255,.3);
+  transition: transform 0.3s;
+}
+#lightbox-overlay img:hover {
+  transform: scale(1.02);
+}
+.facsimile-item img {
+  cursor: zoom-in;
+}
+
+/* ===================================================
+   MAIN NAV STYLING (CENTRATO E UNIFICATO CON METADATA)
+================================================== */
+#metadata {
+  text-align: center;
+  padding: 1em 0;
+}
+#metadata h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+#main-nav {
+  margin: 1em 0;
+}
+#main-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main-nav li {
+  display: inline-block;
+}
+#main-nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+#main-nav a:hover {
+  background-color: #ffcc00;
+  color: #222;
+}
+
+/* ===================================================
+    HIGHLIGHTING STYLES - COLORI ACCESI
+================================================== */
+.highlight-person {
+  background-color: #ff5722; /* Arancione acceso */
+  color: #fff;
+}
+
+.highlight-place {
+  background-color: #2196f3; /* Blu acceso */
+  color: #fff;
+}
+
+.highlight-org {
+  background-color: #ff9800; /* Arancione scuro */
+  color: #fff;
+}
+
+.highlight-title {
+  background-color: #3f51b5; /* Blu indaco */
+  color: #fff;
+}
+
+.highlight-addName {
+  background-color: #4caf50; /* Verde acceso */
+  color: #fff;
+}
+
+.highlight-roleName {
+  background-color: #f44336; /* Rosso acceso */
+  color: #fff;
+}
+
+.highlight-name {
+  background-color: #9c27b0; /* Viola acceso */
+  color: #fff;
+}
+
+.highlight-foreign {
+  background-color: #673ab7; /* Viola scuro */
+  color: #fff;
+}
+
+.highlight-quote {
+  background-color: #ffeb3b; /* Giallo acceso */
+  color: #000;
+}
+
+.highlight-hi {
+  background-color: #00bcd4; /* Ciano acceso */
+  color: #000;
+  font-style: italic;
+}
+
+.highlight-note {
+  background-color: #8bc34a; /* Verde chiaro acceso */
+  color: #000;
+}
+
+.highlight-theme {
+  background-color: #e91e63; /* Rosa acceso */
+  color: #fff;
+}
+
+.highlight-legal {
+  background-color: #ff9800; /* Arancione acceso */
+  color: #000;
+}
+
+.highlight-moral {
+  background-color: #cddc39; /* Verde lime */
+  color: #000;
+}
+
+.highlight-economic {
+  background-color: #009688; /* Teal acceso */
+  color: #fff;
+}
+
+.highlight-nonStandard {
+  background-color: #9e9e9e; /* Grigio acceso */
+  color: #fff;
+}
+
+.highlight-textual {
+  background-color: #03a9f4; /* Azzurro acceso */
+  color: #000;
+}
+
+.highlight-social {
+  background-color: #d32f2f; /* Rosso scuro */
+  color: #fff;
+}
+
+.highlight-infrastructure {
+  background-color: #00e5ff; /* Ciano acceso */
+  color: #000;
+}
+
+.highlight-literaryMovement {
+  background-color: #c2185b; /* Magenta scuro */
+  color: #fff;
+}
+
+.highlight-date {
+  background-color: #795548; /* Marrone acceso */
+  color: #fff;
+}
+
+/* Nasconde la versione corretta/regolarizzata di default */
+.corr-reg {
+  display: none;
+}
+
+.corrected-highlight {
+  background-color: #d1ffd1; /* Verde chiaro per la versione corretta */
+}

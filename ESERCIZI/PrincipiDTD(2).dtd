@@ -1,0 +1,21 @@
+<!-- Elemento root e contenuto -->
+<!ELEMENT TEI (header, facsimile?, text+)>
+
+<!-- Elementi figli e contenuto -->
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA | seg)*>
+<!ELEMENT seg (#PCDATA)>
+
+<!-- Attributi -->
+<!ATTLIST header
+    type CDATA #FIXED "intestazione"
+    lang NMTOKEN #IMPLIED>
+
+<!ATTLIST facsimile
+    source CDATA #REQUIRED
+    ref IDREFS #IMPLIED>
+
+<!ATTLIST text
+    id ID #REQUIRED
+    type CDATA #IMPLIED>

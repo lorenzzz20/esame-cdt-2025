@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Questo documento contiene un esempio di frammento HTML racchiuso in CDATA.
+    Filename: frammentoHTML.xml
+    Author: Lorenzo Fazio
+    Date: 2025-03-11
+-->
+<esempio>
+    <htmlCode>
+        <![CDATA[
+            <h1>Capitolo Primo</h1>
+            <h2>Sezione Seconda</h2>
+        ]]>
+    </htmlCode>
+</esempio>

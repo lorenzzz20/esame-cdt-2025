@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trascrizione manoscritto (25 aprile 1920 – 23 luglio 1940)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edizione digitale a scopo di studio</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Trascrizione dal documento manoscritto originale</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Codifica TEI P5 dei fenomeni testuali principali</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>25 Aprile 1920 – 23 luglio 1940 – Vent’anni: (1.
+        appena il luminare della vita – ma breve e luminosa
+        veramente, come dice il ricordo marmoreo – 
+        promessa, <add place="above">tenne fiamma di mente che si svolgeva tra casa e scuola,</add> speranza, disagio. Chiedete a chi 
+        l’ha <add place="above">affermasse lo sbocciare di un animo eletto, di un’intelligenza</add> conosciuto nella prima infanzia, di<unclear>parola illeggibile</unclear>
+        <add place="above"><unclear>parola scritta male (termina con ‘scovalle’)</unclear></add>anche i ricordi di quei primi anni, felici
+        <del>quando si aspirava giovanilmente alla vita</del>.
+      </p>
+    </body>
+  </text>
+</TEI>

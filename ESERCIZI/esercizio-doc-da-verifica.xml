@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- documento xml validato e corretto -->
+<!-- 
+    file: esercizio-doc-da-validare
+    nome: LORENZO FAZIO
+    data: 2025-03-11
+-->
+
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+            </elementoAnnidato>
+            <!-- Correzione: chiusura corretta dei tag elementoAnnidato e elementoFiglio -->
+            <elementoFiglio/>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoAnnidato>
+        <elementoFiglio/>
+    </elementoAnnidato>
+    <!-- Aggiunta di un nuovo figlio (elementoAggiunto) ad elementoRadice -->
+    <elementoAggiunto>Contenuto Aggiunto</elementoAggiunto>
+    <!-- Aggiunta di un nuovo fratello (elementoFratello) ad elementoRadice -->
+    <elementoFratello>Contenuto Fratello</elementoFratello>
+</elementoRadice>
