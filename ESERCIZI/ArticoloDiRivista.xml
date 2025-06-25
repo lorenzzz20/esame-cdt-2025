@@ -1,0 +1,57 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Distillazione dell’acqua marina</title>
+        <author>Anonimo</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Luigi di Giacomo Pirola</publisher>
+        <pubPlace>Milano</pubPlace>
+        <date when="1839">1839</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title level="a">Distillazione dell’acqua marina</title>
+          <publisher>Luigi di Giacomo Pirola</publisher>
+          <pubPlace>Milano</pubPlace>
+          <date when="1839">1839</date>
+          <idno type="uri">http://www.dmg-lib.org/dmglib/handler?docum=32250009</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="ArticoloDiRivista1.png"/>
+    <graphic url="ArticoloDiRivista2.png"/>
+  </facsimile>
+
+<text>
+    <body>
+      <div type="article">
+        <head>Distillazione dell’acqua marina</head>
+        <p>
+        La possibilità di condurre lunghi viaggi in mare è limitata dalla necessità di recarvi sufficiente provvista d’acqua dolce,
+        sostanza di tanto peso e volume e di così largo consumo.
+        Da lungo tempo si andò studiando il modo di depurare l’acqua marina dai sali ch’essa contiene.
+        Dopo molte esperienze si addivenne presso il ministero della marina francese a una prova,
+        che sembra assicurare lo scioglimento della difficoltà.
+        Si pose in opera un apparato, bastevole a fornir d’acqua pura un equipaggio di 600 uomini,
+        e a produrre in un’ora più di 120 bottiglie, d’un litro ciascuna.
+        </p>
+        <p>
+        Così in viaggio si può sempre avere una provvisione d’acqua limpidissima, e libera affatto dai principi di corruzione,
+        che si accumulano sempre nelle acque tenute a bordo. L’operazione importa il consumo di soli 10 litri di carbone;
+        perciò d’ora in avanti invece di caricare la nave con un dado volume d’acqua, basterà collocarvi la duodecima parte
+        di quel volume di carbone: ossia, una nave d’eguale capacità potrà reggere ai disagi di mare un tempo dodici volte maggiore,
+        senza accostarsi a terra per rifornirsi d’acqua.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

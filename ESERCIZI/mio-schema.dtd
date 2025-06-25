@@ -1,0 +1,6 @@
+<!ELEMENT TEI (header, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ATTLIST text
+           id ID #REQUIRED
+           type CDATA #IMPLIED>

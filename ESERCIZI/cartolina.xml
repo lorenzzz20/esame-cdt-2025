@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cartolina di Luisa D'Annunzio da Pescara</title>
+        <author>Luisa D’Annunzio</author>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Biblioteca comunale Ruggero Bonghi - Lucera</distributor>
+        <availability>
+          <licence target="http://rightsstatements.org/vocab/NoC-OKLR/1.0/">No Copyright - Other Known Legal Restrictions</licence>
+        </availability>
+        <date when="1908-02-11">11 febbraio 1908</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Biblioteca comunale Ruggero Bonghi - Lucera</repository>
+            <idno>inv. 3055, Dep M B 8164</idno>
+          </msIdentifier>
+          <physDesc>
+            <p>Cartolina manoscritta fronte retro, formato cartaceo.</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+    <facsimile>
+    <graphic url="Cartolina.png"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="postcard">
+        <opener>
+          <dateline>
+            <placeName>Pescara</placeName>, 
+            <date when="1908-02-11">11 Febbraio 1908</date>
+          </dateline>
+          <salute>Preg.mo Signore</salute>
+        </opener>
+
+        <p>Le fotografie mi giunsero regolarmente e le ho ritenute in serbo e le tengo tuttora in attesa di una prossima visita di mio figlio Gabriele.  
+        Non ho veduto di mandargli le dette fotografie per raccogliervi il suo autografo perché nel gran numero di simili richieste potrebbero non essere soddisfatte, come tante altre.</p>
+
+        <closer>
+          <salute>Mi creda</salute>
+          <signed>Luisa D’Annunzio</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

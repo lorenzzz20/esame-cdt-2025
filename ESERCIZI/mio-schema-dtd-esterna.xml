@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "mio-schema.dtd">
+<TEI>
+  <header>Intestazione</header>
+  <text id="t1">Contenuto</text>
+</TEI>
